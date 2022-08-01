@@ -1,0 +1,87 @@
+8/1/2022, 10:31:21 AM - INFO - Server is running on port: 3030
+8/1/2022, 10:36:24 AM - INFO - Server is running on port: 3030
+8/1/2022, 10:36:25 AM - INFO - Server is running on port: 3030
+8/1/2022, 10:36:54 AM - DEBUG - auth.service - signup with username: shlomin, fullname: Shlomi Nugarker
+8/1/2022, 10:36:54 AM - DEBUG - auth.route - new account created: {"username":"shlomin","password":"$2b$10$J2fi6IrCqEc6jsQJlb2HNuUyiC7pybTyUnnAx.7L1bWHlTaW2f0li","fullname":"Shlomi Nugarker","isAdmin":false,"_id":"62e78296607ccd3c51f313a8"}
+8/1/2022, 10:36:54 AM - DEBUG - auth.service - login with username: shlomin
+8/1/2022, 10:37:31 AM - WARN - Shlomi Nugarker Attempt to perform admin action
+8/1/2022, 10:37:43 AM - WARN - Shlomi Nugarker Attempt to perform admin action
+8/1/2022, 10:38:25 AM - WARN - Shlomi Nugarker Attempt to perform admin action
+8/1/2022, 10:40:37 AM - INFO - Server is running on port: 3030
+8/1/2022, 10:40:57 AM - DEBUG - auth.service - signup with username: shlomin, fullname: Shlomi Nugarker
+8/1/2022, 10:40:57 AM - DEBUG - auth.route - new account created: {"username":"shlomin","password":"$2b$10$tbrjJtOFPN0Vu7.xwqMe5.Qy4vL1fAbTeTnRYAxXaiX3xN43uob0S","fullname":"Shlomi Nugarker","isAdmin":false,"_id":"62e78389ba94cafdadc00912"}
+8/1/2022, 10:40:57 AM - DEBUG - auth.service - login with username: shlomin
+8/1/2022, 10:41:46 AM - WARN - Shlomi Nugarker Attempt to perform admin action
+8/1/2022, 10:42:51 AM - DEBUG - auth.service - signup with username: shlomin, fullname: Shlomi
+8/1/2022, 10:42:51 AM - DEBUG - auth.route - new account created: {"username":"shlomin","password":"$2b$10$fhXC0JTF2iayQURh2apSJu3UoQG.0cfbrEVI6lffrCUFgWanIFz92","fullname":"Shlomi","isAdmin":false,"_id":"62e783fbba94cafdadc00913"}
+8/1/2022, 10:42:51 AM - DEBUG - auth.service - login with username: shlomin
+8/1/2022, 10:44:46 AM - INFO - Server is running on port: 3030
+8/1/2022, 10:45:29 AM - DEBUG - auth.service - signup with username: shlomin, fullname: Shlomi
+8/1/2022, 10:45:29 AM - DEBUG - auth.route - new account created: {"username":"shlomin","password":"$2b$10$jl1oXCyQmvMK8pEfXGtHWOPelWQTGWjlK/WRzlQg5doVTAuvZCdn2","fullname":"Shlomi","isAdmin":false,"_id":"62e78499bdabfb758554a8b7"}
+8/1/2022, 10:45:29 AM - DEBUG - auth.service - login with username: shlomin
+8/1/2022, 10:46:27 AM - DEBUG - auth.service - signup with username: aaa, fullname: aaa
+8/1/2022, 10:46:27 AM - DEBUG - auth.route - new account created: {"username":"aaa","password":"$2b$10$9k4sjwoyy.rd7NXRHZoTnuvDEozePerEcllT5k9SY23PkDNqsOOS.","fullname":"aaa","isAdmin":false,"_id":"62e784d3bdabfb758554a8b8"}
+8/1/2022, 10:46:27 AM - DEBUG - auth.service - login with username: aaa
+8/1/2022, 10:46:40 AM - DEBUG - auth.service - signup with username: bbb, fullname: bbb
+8/1/2022, 10:46:40 AM - DEBUG - auth.route - new account created: {"username":"bbb","password":"$2b$10$Ijm1bn9R/oX/waaWv4a1UetakB//Xq8PV7EUlGdG8R3POClDJZ3kS","fullname":"bbb","isAdmin":false,"_id":"62e784e0bdabfb758554a8b9"}
+8/1/2022, 10:46:40 AM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 12:16:07 PM - DEBUG - auth.service - login with username: undefined
+8/1/2022, 12:16:07 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 12:41:06 PM - DEBUG - auth.service - login with username: 
+8/1/2022, 12:41:06 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 12:42:14 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 12:43:42 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 12:51:56 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 12:57:47 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 1:01:06 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 1:04:42 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 1:05:45 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 1:19:33 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 1:21:04 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 1:23:25 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 1:28:11 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 1:32:12 PM - DEBUG - auth.service - login with username: ddd
+8/1/2022, 1:32:12 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 1:33:47 PM - DEBUG - auth.service - login with username: ddd
+8/1/2022, 1:33:47 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 1:40:23 PM - DEBUG - auth.service - login with username: ddd
+8/1/2022, 1:40:23 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 1:40:56 PM - DEBUG - auth.service - login with username: ddd
+8/1/2022, 1:40:56 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 1:41:47 PM - DEBUG - auth.service - login with username: ddd
+8/1/2022, 1:41:47 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 1:43:12 PM - DEBUG - auth.service - login with username: ddd
+8/1/2022, 1:43:12 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 1:49:16 PM - DEBUG - auth.service - login with username: ddd
+8/1/2022, 1:49:16 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 1:49:31 PM - DEBUG - auth.service - login with username: ddd
+8/1/2022, 1:49:31 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 1:49:58 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 1:50:32 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 6:49:36 PM - DEBUG - auth.service - signup with username: xxx, fullname: 
+8/1/2022, 6:49:36 PM - ERROR - Failed to signup fullname, username and password are required!
+8/1/2022, 6:58:45 PM - DEBUG - auth.service - signup with username: , fullname: 
+8/1/2022, 6:58:45 PM - ERROR - Failed to signup fullname, username and password are required!
+8/1/2022, 6:58:59 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 6:59:17 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 6:59:29 PM - DEBUG - auth.service - login with username: 
+8/1/2022, 6:59:29 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 7:02:12 PM - DEBUG - auth.service - signup with username: adiel123, fullname: 
+8/1/2022, 7:02:12 PM - ERROR - Failed to signup fullname, username and password are required!
+8/1/2022, 7:02:34 PM - DEBUG - auth.service - signup with username: zzz, fullname: 
+8/1/2022, 7:02:34 PM - ERROR - Failed to signup fullname, username and password are required!
+8/1/2022, 7:02:50 PM - DEBUG - auth.service - login with username: ddd
+8/1/2022, 7:02:50 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 7:03:04 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 7:03:14 PM - DEBUG - auth.service - signup with username: ss, fullname: 
+8/1/2022, 7:03:14 PM - ERROR - Failed to signup fullname, username and password are required!
+8/1/2022, 7:03:39 PM - DEBUG - auth.service - signup with username: ss, fullname: 
+8/1/2022, 7:03:39 PM - ERROR - Failed to signup fullname, username and password are required!
+8/1/2022, 7:03:49 PM - DEBUG - auth.service - signup with username: ss, fullname: 
+8/1/2022, 7:03:49 PM - ERROR - Failed to signup fullname, username and password are required!
+8/1/2022, 7:06:22 PM - DEBUG - auth.service - signup with username: adiel123, fullname: adiel
+8/1/2022, 7:06:22 PM - DEBUG - auth.route - new account created: {"username":"adiel123","password":"$2b$10$0DvsXtZfZXiNwO3CXiT.TeBa28CeuW1BB38/SC13qypNPfrzhn8/.","fullname":"adiel","isAdmin":false,"_id":"62e7f9febdabfb758554a8ba"}
+8/1/2022, 7:06:22 PM - DEBUG - auth.service - login with username: adiel123
+8/1/2022, 7:08:00 PM - DEBUG - auth.service - login with username: adiel123
+8/1/2022, 7:08:10 PM - DEBUG - auth.service - login with username: adiel
+8/1/2022, 7:08:10 PM - ERROR - Failed to Login Invalid username or password
