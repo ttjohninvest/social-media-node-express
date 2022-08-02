@@ -1,1 +1,77 @@
-{}
+[
+  {
+    "userId": "u-001",
+    "fullname": "Terry Medhurst",
+    "posts": [
+      {
+        "title": "This is my title",
+        "body": "His mother had alwto ever think of himself as better than others. He'd tried to live by this motto. He never looked down on those who were less fortunate or who hadf the group of people he was talking to made him change his mind.",
+        "reactions": 2,
+        "createdAt": 1659421203329,
+        "imgBodyUrl": "",
+        "comments": [
+          {
+            "_id": 1,
+            "body": "my comment !",
+            "postId": 100,
+            "createdAt": 1659421208289,
+            "user": {
+              "_id": "u-001",
+              "username": "Terry123"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "userId": "u-002",
+    "fullname": "Shlomi Nugarker",
+    "posts": [
+      {
+        "title": "This is another title",
+        "body": "better than others. He'd tre group of people he was talking to made him change his mind.",
+        "reactions": 6,
+        "createdAt": 1659421208329,
+        "imgBodyUrl": "",
+        "comments": [
+          {
+            "_id": 3,
+            "body": "Very nice !",
+            "postId": 101,
+            "createdAt": 1659421208329,
+            "user": {
+              "_id": "u-003",
+              "username": "jennifer123"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "userId": "u-003",
+    "fullname": "Jennifer Lopez",
+    "posts": [
+      {
+        "title": "This is another title",
+        "body": "ange his mind.",
+        "reactions": 6,
+        "createdAt": 1659421208129,
+        "imgBodyUrl": "",
+        "comments": [
+          {
+            "_id": 2,
+            "body": "Good luck !",
+            "postId": 101,
+            "createdAt": 1659421208329,
+            "user": {
+              "_id": "u-002",
+              "username": "shlomi123"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

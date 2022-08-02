@@ -85,3 +85,451 @@
 8/1/2022, 7:08:00 PM - DEBUG - auth.service - login with username: adiel123
 8/1/2022, 7:08:10 PM - DEBUG - auth.service - login with username: adiel
 8/1/2022, 7:08:10 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 8:51:27 PM - INFO - Server is running on port: 3030
+8/1/2022, 8:51:38 PM - INFO - Server is running on port: 3030
+8/1/2022, 9:03:35 PM - INFO - Server is running on port: 3030
+8/1/2022, 9:04:10 PM - INFO - Server is running on port: 3030
+8/1/2022, 9:04:19 PM - INFO - Server is running on port: 3030
+8/1/2022, 9:04:29 PM - INFO - Server is running on port: 3030
+8/1/2022, 9:05:07 PM - INFO - Server is running on port: 3030
+8/1/2022, 9:05:41 PM - INFO - Server is running on port: 3030
+8/1/2022, 9:06:15 PM - INFO - Server is running on port: 3030
+8/1/2022, 9:06:36 PM - INFO - Server is running on port: 3030
+8/1/2022, 9:07:06 PM - DEBUG - auth.service - signup with username: sdfghj, fullname: sdfgh
+8/1/2022, 9:07:06 PM - DEBUG - auth.route - new account created: {"username":"sdfghj","password":"$2b$10$nswnMYyPnBwM5qRuFs9VjOnMedxNLIYUGpWFmUhp/qIA/gLtfF5.6","fullname":"sdfgh","isAdmin":false,"createdAt":1659377226265,"connections":null,"email":null,"imgUrl":"","_id":"62e8164ab1a49602668597ae"}
+8/1/2022, 9:07:06 PM - DEBUG - auth.service - login with username: sdfghj
+8/1/2022, 9:13:42 PM - DEBUG - auth.service - signup with username: shlomin1231, fullname: Shlomi Nugarker
+8/1/2022, 9:13:43 PM - DEBUG - auth.route - new account created: {"username":"shlomin1231","password":"$2b$10$1pm/zBb6oRkhesq3FlifoOlOHHsu4CB9lxZ/p2Xe2URaQ4BDMCMW2","fullname":"Shlomi Nugarker","isAdmin":false,"createdAt":1659377623007,"connections":null,"email":null,"imgUrl":"","_id":"62e817d7b1a49602668597af"}
+8/1/2022, 9:13:43 PM - DEBUG - auth.service - login with username: shlomin1231
+8/1/2022, 9:15:11 PM - INFO - Server is running on port: 3030
+8/1/2022, 9:15:53 PM - INFO - Server is running on port: 3030
+8/1/2022, 9:22:00 PM - INFO - Server is running on port: 3030
+8/1/2022, 11:26:30 PM - DEBUG - auth.service - login with username: bbb
+8/1/2022, 11:26:30 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 11:26:54 PM - DEBUG - auth.service - login with username: shlomi1231
+8/1/2022, 11:26:54 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 11:27:03 PM - DEBUG - auth.service - login with username: shlomin
+8/1/2022, 11:27:03 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 11:27:18 PM - DEBUG - auth.service - login with username: shlomi1231
+8/1/2022, 11:27:18 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 11:27:42 PM - DEBUG - auth.service - login with username: shlomi1231
+8/1/2022, 11:27:42 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 11:27:57 PM - DEBUG - auth.service - login with username: shlomin1231
+8/1/2022, 11:28:16 PM - DEBUG - auth.service - login with username: shlomin1231
+8/1/2022, 11:28:30 PM - DEBUG - auth.service - login with username: shlomi1231
+8/1/2022, 11:28:30 PM - ERROR - Failed to Login Invalid username or password
+8/1/2022, 11:28:52 PM - DEBUG - auth.service - login with username: shlomin1231
+8/2/2022, 11:59:52 AM - INFO - Server is running on port: 3030
+8/2/2022, 12:00:39 PM - INFO - Server is running on port: 3030
+8/2/2022, 6:20:54 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 6:20:54 PM - ERROR - Failed to Login Invalid username or password
+8/2/2022, 6:58:35 PM - INFO - Server is running on port: 3030
+8/2/2022, 6:59:28 PM - INFO - Server is running on port: 3030
+8/2/2022, 7:03:59 PM - INFO - Server is running on port: 3030
+8/2/2022, 7:04:01 PM - INFO - Server is running on port: 3030
+8/2/2022, 7:06:25 PM - INFO - Server is running on port: 3030
+8/2/2022, 7:06:52 PM - INFO - Server is running on port: 3030
+8/2/2022, 7:06:53 PM - INFO - Server is running on port: 3030
+8/2/2022, 7:50:42 PM - INFO - Server is running on port: 3030
+8/2/2022, 7:55:26 PM - INFO - Server is running on port: 3030
+8/2/2022, 7:56:51 PM - INFO - Server is running on port: 3030
+8/2/2022, 7:59:29 PM - INFO - Server is running on port: 3030
+8/2/2022, 8:00:14 PM - INFO - Server is running on port: 3030
+8/2/2022, 8:02:41 PM - INFO - Server is running on port: 3030
+8/2/2022, 8:09:56 PM - INFO - Server is running on port: 3030
+8/2/2022, 8:10:03 PM - INFO - Server is running on port: 3030
+8/2/2022, 8:19:48 PM - INFO - Server is running on port: 3030
+8/2/2022, 8:21:22 PM - INFO - Server is running on port: 3030
+8/2/2022, 8:22:59 PM - INFO - Server is running on port: 3030
+8/2/2022, 8:24:04 PM - INFO - Server is running on port: 3030
+8/2/2022, 8:25:21 PM - INFO - Server is running on port: 3030
+8/2/2022, 8:29:14 PM - DEBUG - auth.service - signup with username: shlominnn, fullname: shlomi
+8/2/2022, 8:29:14 PM - ERROR - Failed to signup Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+8/2/2022, 8:31:03 PM - DEBUG - auth.service - signup with username: shlominnn, fullname: shlomi
+8/2/2022, 8:31:03 PM - ERROR - Failed to signup Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+8/2/2022, 8:32:15 PM - DEBUG - auth.service - signup with username: shlominnn, fullname: shlomi
+8/2/2022, 8:32:15 PM - ERROR - Failed to signup Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+8/2/2022, 8:32:21 PM - DEBUG - auth.service - signup with username: shlominnn, fullname: shlomi
+8/2/2022, 8:32:21 PM - ERROR - Failed to signup Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+8/2/2022, 8:32:31 PM - DEBUG - auth.service - signup with username: shlominnn, fullname: shlomi
+8/2/2022, 8:32:31 PM - ERROR - Failed to signup Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+8/2/2022, 8:39:39 PM - DEBUG - auth.service - signup with username: shlominnn, fullname: shlomi
+8/2/2022, 8:39:39 PM - ERROR - Failed to signup Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+8/2/2022, 8:41:00 PM - DEBUG - auth.service - signup with username: shlomin1231, fullname: sn
+8/2/2022, 8:41:00 PM - DEBUG - auth.route - new account created: {"username":"shlomin1231","password":"$2b$10$nVDHX1OPhgUA5ILf3cNWyu5j9EzQ/fB05LEsANLgdcQKNonnNfOx.","fullname":"sn","isAdmin":false,"createdAt":1659462060501,"connections":[],"email":null,"imgUrl":"","_id":"62e961ac2b7dc3956e82d6c0"}
+8/2/2022, 8:41:00 PM - DEBUG - auth.service - login with username: shlomin1231
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:17 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:18 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:19 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:20 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:21 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:22 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:23 PM - INFO - Req from: sn
+8/2/2022, 8:49:24 PM - INFO - Req from: sn
+8/2/2022, 8:49:24 PM - INFO - Req from: sn
+8/2/2022, 8:49:24 PM - INFO - Req from: sn
+8/2/2022, 8:49:25 PM - INFO - Req from: sn
+8/2/2022, 8:49:25 PM - INFO - Req from: sn
+8/2/2022, 8:49:25 PM - INFO - Req from: sn
+8/2/2022, 8:49:25 PM - INFO - Req from: sn
+8/2/2022, 8:49:25 PM - INFO - Req from: sn
+8/2/2022, 8:49:25 PM - INFO - Req from: sn
+8/2/2022, 8:49:25 PM - INFO - Req from: sn
+8/2/2022, 8:49:25 PM - INFO - Req from: sn
+8/2/2022, 8:49:25 PM - INFO - Req from: sn
+8/2/2022, 8:49:25 PM - INFO - Req from: sn
+8/2/2022, 8:49:25 PM - INFO - Req from: sn
+8/2/2022, 8:49:25 PM - INFO - Req from: sn
+8/2/2022, 8:49:41 PM - INFO - Req from: sn
+8/2/2022, 8:50:30 PM - INFO - Req from: sn
+8/2/2022, 8:50:40 PM - INFO - Req from: sn
+8/2/2022, 8:50:48 PM - INFO - Req from: sn
+8/2/2022, 8:51:17 PM - INFO - Req from: sn
+8/2/2022, 8:52:20 PM - DEBUG - auth.service - signup with username: bbb, fullname: bbb
+8/2/2022, 8:52:20 PM - DEBUG - auth.route - new account created: {"username":"bbb","password":"$2b$10$Muf83F5bJWLjFK6J.ZDx3.9/YeFHqUSld0ZrMfk1yTxU3WsRWySZi","fullname":"bbb","isAdmin":false,"createdAt":1659462740451,"connections":[],"email":null,"imgUrl":"","_id":"62e964542b7dc3956e82d6c1"}
+8/2/2022, 8:52:20 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 8:53:29 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 8:54:41 PM - INFO - Req from: bbb
+8/2/2022, 8:57:42 PM - INFO - Server is running on port: 3030
+8/2/2022, 8:59:45 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:00:58 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:01:28 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:03:37 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 9:04:47 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:04:50 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 9:05:17 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:05:20 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 9:05:25 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 9:05:44 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 9:05:50 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:05:53 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 9:07:20 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:07:23 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:08:00 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:08:31 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:17:02 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:17:25 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:19:55 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:20:55 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 9:28:13 PM - INFO - Req from: bbb
+8/2/2022, 9:30:16 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:33:26 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:39:51 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:40:24 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:40:40 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:51:29 PM - INFO - Server is running on port: 3030
+8/2/2022, 9:51:32 PM - ERROR - cannot find posts | {}
+8/2/2022, 9:51:32 PM - ERROR - Failed to get posts | {}
+8/2/2022, 9:51:52 PM - ERROR - cannot find posts | {}
+8/2/2022, 9:51:52 PM - ERROR - Failed to get posts | {}
+8/2/2022, 9:52:15 PM - INFO - Server is running on port: 3030
+8/2/2022, 10:54:16 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 11:01:13 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 11:01:23 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 11:02:56 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 11:04:42 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 11:06:20 PM - DEBUG - auth.service - login with username: bbb
+8/2/2022, 11:08:50 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:09:49 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:11:48 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:12:13 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:12:18 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:13:06 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:13:47 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:14:00 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:15:10 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:15:29 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:18:59 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:19:18 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:20:38 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:21:16 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:22:40 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:36:43 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:39:22 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:39:32 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:40:39 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:41:03 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:41:56 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:43:06 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:44:07 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:44:32 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:44:57 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:45:13 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:45:42 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:46:31 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:47:01 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:47:07 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:47:15 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:47:54 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:48:32 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:48:46 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:48:50 PM - INFO - Server is running on port: 3030
+8/2/2022, 11:49:46 PM - INFO - Server is running on port: 3030
+8/3/2022, 12:16:23 AM - INFO - Server is running on port: 3030
+8/3/2022, 12:16:39 AM - INFO - Server is running on port: 3030
+8/3/2022, 12:16:50 AM - INFO - Server is running on port: 3030
+8/3/2022, 12:23:37 AM - INFO - Server is running on port: 3030

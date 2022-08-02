@@ -20,6 +20,7 @@ async function query(filterBy = {}) {
       delete user.password
       return user
     })
+    console.log({ users })
     return users
   } catch (err) {
     logger.error('cannot find users', err)
@@ -85,6 +86,10 @@ async function add(user) {
       password: user.password,
       fullname: user.fullname,
       isAdmin: user.isAdmin || false,
+      createdAt: new Date().getTime(),
+      connections: [],
+      email: null,
+      imgUrl: '',
     }
     const collection = await dbService.getCollection('user')
     await collection.insertOne(userToAdd)

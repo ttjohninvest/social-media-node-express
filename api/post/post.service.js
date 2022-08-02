@@ -12,60 +12,61 @@ module.exports = {
 
 async function query(filterBy) {
   try {
-    const criteria = _buildCriteria(filterBy)
-    // const criteria = {}
+    // const criteria = _buildCriteria(filterBy)
+    const criteria = {}
 
-    const collection = await dbService.getCollection('Post')
-    var Posts = await collection.find(criteria).toArray()
-    return Posts
+    const collection = await dbService.getCollection('post')
+    var posts = await collection.find(criteria).toArray()
+    return posts
   } catch (err) {
-    logger.error('cannot find Posts', err)
+    logger.error('cannot find posts', err)
     throw err
   }
 }
 
-async function getById(PostId) {
+async function getById(postId) {
   try {
-    const collection = await dbService.getCollection('Post')
-    const Post = collection.findOne({ _id: ObjectId(PostId) })
-    return Post
+    const collection = await dbService.getCollection('post')
+    const post = collection.findOne({ _id: ObjectId(postId) })
+    return post
   } catch (err) {
-    logger.error(`while finding Post ${PostId}`, err)
+    logger.error(`while finding posts ${postId}`, err)
     throw err
   }
 }
 
-async function remove(PostId) {
+async function remove(postId) {
   try {
-    const collection = await dbService.getCollection('Post')
-    await collection.deleteOne({ _id: ObjectId(PostId) })
-    return PostId
+    const collection = await dbService.getCollection('post')
+    await collection.deleteOne({ _id: ObjectId(postId) })
+    return postId
   } catch (err) {
-    logger.error(`cannot remove Post ${PostId}`, err)
+    logger.error(`cannot remove posts ${postId}`, err)
     throw err
   }
 }
 
-async function add(Post) {
+async function add(post) {
   try {
-    const collection = await dbService.getCollection('Post')
-    const addedPost = await collection.insertOne(Post)
+    const collection = await dbService.getCollection('post')
+    const addedPost = await collection.insertOne(post)
     return addedPost
   } catch (err) {
-    logger.error('cannot insert Post', err)
+    logger.error('cannot insert posts', err)
     throw err
   }
 }
 
-async function update(Post) {
+async function update(posts) {
   try {
-    var id = ObjectId(Post._id)
-    delete Post._id
-    const collection = await dbService.getCollection('Post')
-    await collection.updateOne({ _id: id }, { $set: { ...Post } })
-    return Post
+    var id = ObjectId(posts._id)
+    delete posts._id
+    const collection = await dbService.getCollection('post')
+    console.log({ collection })
+    await collection.updateOne({ _id: id }, { $set: { ...posts } })
+    return posts
   } catch (err) {
-    logger.error(`cannot update Post ${Post._id}`, err)
+    logger.error(`cannot update posts ${posts._id}`, err)
     throw err
   }
 }

@@ -1,14 +1,47 @@
 [
   {
-    "fullname": "puki ben david",
-    "username": "puki",
-    "password": "puki",
-    "isAdmin": false
+    "_id": "u-001",
+    "fullname": "Terry Medhurst",
+    "username": "Terry123",
+    "password": "1234",
+    "isAdmin": false,
+    "age": null,
+    "connection": [],
+    "gender": "male",
+    "email": "atuny0@mail.com",
+    "phone": "012-345-67-89",
+    "birthDate": "2000-12-25",
+    "createdAt": 1659421208389,
+    "imgUrl": "https://robohash.org/hicveldicta.png?size=50x50&set=set1"
   },
   {
-    "fullname": "avior kahalani",
-    "username": "avior",
-    "password": "avior",
-    "isAdmin": true
+    "_id": "u-002",
+    "fullname": "Shlomi Nugarker",
+    "username": "shlomi123",
+    "password": "1234",
+    "isAdmin": false,
+    "age": null,
+    "connection": [],
+    "gender": "male",
+    "email": "shlomi0@mail.com",
+    "phone": "012-345-67-89",
+    "birthDate": "1987-12-14",
+    "createdAt": 1659421108389,
+    "imgUrl": "https://robohash.org/hicveldicta.png?size=50x50&set=set2"
+  },
+  {
+    "_id": "u-003",
+    "fullname": "Jennifer Lopez",
+    "username": "jennifer123",
+    "password": "1234",
+    "isAdmin": false,
+    "age": null,
+    "connection": [],
+    "gender": "female",
+    "email": "jennifer0@mail.com",
+    "phone": "012-345-67-89",
+    "birthDate": "1989-12-24",
+    "createdAt": 1659421108389,
+    "imgUrl": "https://robohash.org/hicveldicta.png?size=50x50&set=set3"
   }
 ]

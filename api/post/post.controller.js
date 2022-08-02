@@ -1,5 +1,5 @@
 const logger = require('../../services/logger.service')
-const PostService = require('./Post.service')
+const postService = require('./post.service')
 
 module.exports = {
   getPosts,
@@ -13,11 +13,11 @@ module.exports = {
 async function getPosts(req, res) {
   try {
     const filterBy = req.query
-    const Posts = await PostService.query(filterBy)
-    res.json(Posts)
+    const posts = await postService.query(filterBy)
+    res.json(posts)
   } catch (err) {
-    logger.error('Failed to get Posts', err)
-    res.status(500).send({ err: 'Failed to get Posts' })
+    logger.error('Failed to get posts', err)
+    res.status(500).send({ err: 'Failed to get posts' })
   }
 }
 
@@ -25,35 +25,36 @@ async function getPosts(req, res) {
 async function getPostById(req, res) {
   try {
     const { id } = req.params
-    const Post = await PostService.getById(id)
-    res.json(Post)
+    const post = await postService.getById(id)
+    res.json(post)
   } catch (err) {
-    logger.error('Failed to get Post', err)
-    res.status(500).send({ err: 'Failed to get Post' })
+    logger.error('Failed to get post', err)
+    res.status(500).send({ err: 'Failed to get post' })
   }
 }
 
 // CREATE
 async function addPost(req, res) {
   try {
-    const Post = req.body
-    const addedPost = await PostService.add(Post)
+    const post = req.body
+    console.log(post)
+    const addedPost = await postService.add(post)
     res.json(addedPost)
   } catch (err) {
-    logger.error('Failed to add Post', err)
-    res.status(500).send({ err: 'Failed to add Post' })
+    logger.error('Failed to add post', err)
+    res.status(500).send({ err: 'Failed to add post' })
   }
 }
 
 // UPDATE
 async function updatePost(req, res) {
   try {
-    const Post = req.body
-    const updatedPost = await PostService.update(Post)
+    const post = req.body
+    const updatedPost = await postService.update(post)
     res.json(updatedPost)
   } catch (err) {
-    logger.error('Failed to update Post', err)
-    res.status(500).send({ err: 'Failed to update Post' })
+    logger.error('Failed to update post', err)
+    res.status(500).send({ err: 'Failed to update post' })
   }
 }
 
@@ -61,10 +62,10 @@ async function updatePost(req, res) {
 async function removePost(req, res) {
   try {
     const { id } = req.params
-    const removedId = await PostService.remove(id)
+    const removedId = await postService.remove(id)
     res.send(removedId)
   } catch (err) {
-    logger.error('Failed to remove Post', err)
-    res.status(500).send({ err: 'Failed to remove Post' })
+    logger.error('Failed to remove post', err)
+    res.status(500).send({ err: 'Failed to remove post' })
   }
 }

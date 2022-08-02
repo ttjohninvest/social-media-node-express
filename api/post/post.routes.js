@@ -18,10 +18,10 @@ const router = express.Router()
 
 router.get('/', log, getPosts)
 router.get('/:id', getPostById)
-// router.post('/', addPost)
+router.post('/', addPost)
 // router.put('/:id', updatePost)
 // router.delete('/:id', removePost)
-router.post('/', requireAuth, requireAdmin, addPost)
+// router.post('/', requireAuth, requireAdmin, addPost)
 router.put('/:id', requireAuth, requireAdmin, updatePost)
 router.delete('/:id', requireAuth, requireAdmin, removePost)
 
