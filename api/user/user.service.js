@@ -84,12 +84,18 @@ async function add(user) {
     const userToAdd = {
       username: user.username,
       password: user.password,
+      profession: null,
       fullname: user.fullname,
       isAdmin: user.isAdmin || false,
+      age: null,
       createdAt: new Date().getTime(),
       connections: [],
+      gender: null,
+      phone: null,
+      birthDate: null,
       email: null,
-      imgUrl: '',
+      imgUrl:
+        'https://banner2.cleanpng.com/20180722/gfc/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291.jpg',
     }
     const collection = await dbService.getCollection('user')
     await collection.insertOne(userToAdd)

@@ -533,3 +533,131 @@
 8/3/2022, 12:16:39 AM - INFO - Server is running on port: 3030
 8/3/2022, 12:16:50 AM - INFO - Server is running on port: 3030
 8/3/2022, 12:23:37 AM - INFO - Server is running on port: 3030
+8/3/2022, 12:45:20 AM - DEBUG - auth.service - login with username: bbb
+8/3/2022, 12:45:20 AM - ERROR - Failed to Login Invalid username or password
+8/3/2022, 8:46:25 AM - INFO - Server is running on port: 3030
+8/3/2022, 8:48:02 AM - INFO - Server is running on port: 3030
+8/3/2022, 8:55:09 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 8:55:09 AM - ERROR - Failed to Login Invalid username or password
+8/3/2022, 8:56:42 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 8:56:42 AM - ERROR - Failed to Login Invalid username or password
+8/3/2022, 8:57:01 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 8:57:01 AM - ERROR - Failed to Login Invalid username or password
+8/3/2022, 8:57:27 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 8:57:27 AM - ERROR - Failed to Login Invalid username or password
+8/3/2022, 9:03:07 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 9:03:07 AM - ERROR - Failed to Login Invalid username or password
+8/3/2022, 9:05:02 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 9:05:02 AM - ERROR - Failed to Login Invalid username or password
+8/3/2022, 9:05:59 AM - INFO - Server is running on port: 3030
+8/3/2022, 9:06:48 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 9:06:48 AM - ERROR - Failed to Login Invalid username or password
+8/3/2022, 9:08:54 AM - DEBUG - auth.service - signup with username: shlomi123, fullname: Shlomi Nugarker
+8/3/2022, 9:08:54 AM - DEBUG - auth.route - new account created: {"username":"shlomi123","password":"$2b$10$TeAvnqV2Y7OmwVDkCpKwjuIQATxHYAqXoGOQY35cLpnDnZyEGtnAW","fullname":"Shlomi Nugarker","isAdmin":false,"createdAt":1659506934119,"connections":[],"email":null,"imgUrl":"","_id":"62ea10f6ed509dffeb06d526"}
+8/3/2022, 9:08:54 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 9:12:40 AM - INFO - Server is running on port: 3030
+8/3/2022, 9:13:06 AM - INFO - Server is running on port: 3030
+8/3/2022, 9:13:29 AM - INFO - Server is running on port: 3030
+8/3/2022, 9:13:55 AM - INFO - Server is running on port: 3030
+8/3/2022, 9:14:16 AM - INFO - Server is running on port: 3030
+8/3/2022, 9:15:23 AM - DEBUG - auth.service - signup with username: shlomi123, fullname: Shlomi Nugarker
+8/3/2022, 9:15:23 AM - DEBUG - auth.route - new account created: {"username":"shlomi123","password":"$2b$10$fgsK0Yomf8Vdw3.bfIXJuOd/axCVx38HuYX9E.Bh7KS2Ik4kLd2zu","profession":null,"fullname":"Shlomi Nugarker","isAdmin":false,"age":null,"createdAt":1659507323661,"connections":[],"gender":"male","phone":"012-345-67-89","birthDate":"1987-12-14","email":null,"imgUrl":"","_id":"62ea127beb6ee5f8058fd56e"}
+8/3/2022, 9:15:23 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 9:26:30 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:29:09 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 9:29:09 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:33:56 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 9:35:45 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:37:00 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:38:02 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:39:20 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:42:46 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:43:56 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:44:17 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:45:35 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:48:03 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:49:07 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:49:10 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:49:12 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:50:10 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 9:50:27 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:54:44 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 9:55:13 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 9:58:24 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 10:01:23 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 10:02:53 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 10:04:23 AM - INFO - Server is running on port: 3030
+8/3/2022, 10:05:48 AM - INFO - Server is running on port: 3030
+8/3/2022, 10:06:12 AM - INFO - Server is running on port: 3030
+8/3/2022, 10:07:19 AM - INFO - Server is running on port: 3030
+8/3/2022, 10:10:28 AM - INFO - Server is running on port: 3030
+8/3/2022, 10:12:05 AM - INFO - Server is running on port: 3030
+8/3/2022, 10:12:53 AM - INFO - Server is running on port: 3030
+8/3/2022, 10:14:15 AM - DEBUG - auth.service - signup with username: jennifer123, fullname: Jennifer Lopez
+8/3/2022, 10:14:15 AM - DEBUG - auth.route - new account created: {"username":"jennifer123","password":"$2b$10$iah0pJ4.DnmsCDrXPSLyAO5x9pndc3bIyQ7NKWlFQDbr2kebv2r.q","profession":null,"fullname":"Jennifer Lopez","isAdmin":false,"age":null,"createdAt":1659510855889,"connections":[],"gender":"male","phone":"012-345-67-89","birthDate":"1987-12-14","email":null,"imgUrl":"https://banner2.cleanpng.com/20180722/gfc/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291.jpg","_id":"62ea20470161fa583da1ff40"}
+8/3/2022, 10:14:15 AM - DEBUG - auth.service - login with username: jennifer123
+8/3/2022, 10:14:50 AM - INFO - Req from: Jennifer Lopez
+8/3/2022, 10:15:06 AM - DEBUG - auth.service - login with username: jennifer123
+8/3/2022, 10:17:48 AM - INFO - Server is running on port: 3030
+8/3/2022, 10:18:02 AM - DEBUG - auth.service - login with username: jennifer123
+8/3/2022, 10:19:06 AM - INFO - Server is running on port: 3030
+8/3/2022, 10:19:22 AM - INFO - Server is running on port: 3030
+8/3/2022, 10:33:46 AM - INFO - Server is running on port: 3030
+8/3/2022, 10:53:02 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 11:07:40 AM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 11:07:45 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:09:20 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:10:30 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:11:07 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:12:01 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:20:03 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:20:20 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:21:46 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:22:22 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:23:10 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:27:33 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:28:38 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:54:52 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:56:09 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:57:04 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:57:47 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:59:31 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 11:59:58 AM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 12:00:26 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 12:00:29 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 12:00:50 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 12:01:21 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 12:01:24 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 12:02:32 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 12:03:09 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 12:03:24 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 12:05:06 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:31:07 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:36:34 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:37:09 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:38:06 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:39:41 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:42:35 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:42:38 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:45:19 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:48:41 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:53:06 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:58:06 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:58:10 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 2:59:04 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 3:01:51 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 3:07:23 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 3:07:57 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 3:26:25 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 3:27:59 PM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 3:28:24 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 3:29:31 PM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 3:29:55 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 3:45:06 PM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 3:45:06 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 3:45:13 PM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 3:45:13 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 4:03:38 PM - DEBUG - auth.service - login with username: shlomi123
+8/3/2022, 4:03:38 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 4:06:28 PM - INFO - Req from: Shlomi Nugarker
+8/3/2022, 4:07:38 PM - INFO - Req from: Shlomi Nugarker
