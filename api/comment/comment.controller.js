@@ -2,31 +2,31 @@ const logger = require('../../services/logger.service')
 const commentService = require('./comment.service')
 
 module.exports = {
-  getComments,
-  getCommentById,
+  // getComments,
+  getCommentsByPostId,
   addComment,
   updateComment,
   removeComment,
 }
 
 // LIST
-async function getComments(req, res) {
-  try {
-    const filterBy = req.query
-    const comments = await commentService.query(filterBy)
-    res.json(comments)
-  } catch (err) {
-    logger.error('Failed to get comments', err)
-    res.status(500).send({ err: 'Failed to get comments' })
-  }
-}
+// async function getComments(req, res) {
+//   try {
+//     const filterBy = req.query
+//     const comments = await commentService.query(filterBy)
+//     res.json(comments)
+//   } catch (err) {
+//     logger.error('Failed to get comments', err)
+//     res.status(500).send({ err: 'Failed to get comments' })
+//   }
+// }
 
 // READ
-async function getCommentById(req, res) {
+async function getCommentsByPostId(req, res) {
   try {
-    const { id } = req.params
-    const comment = await commentService.getById(id)
-    res.json(comment)
+    const postId = req.params.id
+    const comments = await commentService.getCommentsByPostId(postId)
+    res.json(comments)
   } catch (err) {
     logger.error('Failed to get comment', err)
     res.status(500).send({ err: 'Failed to get comment' })
@@ -36,7 +36,6 @@ async function getCommentById(req, res) {
 // CREATE
 async function addComment(req, res) {
   try {
-    console.log(' req.body:', req.body)
     const comment = req.body
     const addedComment = await commentService.add(comment)
     res.json(addedComment)

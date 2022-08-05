@@ -6,7 +6,7 @@ const utilService = require('../../services/util.service')
 module.exports = {
   remove,
   query,
-  getById,
+  getCommentsByPostId,
   add,
   update,
 }
@@ -25,13 +25,17 @@ async function query(filterBy) {
   }
 }
 
-async function getById(commentId) {
+async function getCommentsByPostId(postId) {
   try {
     const collection = await dbService.getCollection('comment')
-    const comment = collection.findOne({ _id: ObjectId(commentId) })
-    return comment
+    const comments = await collection
+      .find({ postId: ObjectId(postId) })
+      .toArray()
+
+    console.log(comments)
+    return comments
   } catch (err) {
-    logger.error(`while finding comments ${commentId}`, err)
+    logger.error(`while finding comments postId: ${postId}`, err)
     throw err
   }
 }
@@ -48,18 +52,14 @@ async function remove(commentId) {
 }
 
 async function add(comment) {
-  const { body, imgBodyUrl, title, userId } = comment
+  const { txt, postId, userId } = comment
   try {
     const commentToAdd = {
-      // ????
       userId: ObjectId(userId),
-      title,
-      body,
+      postId: ObjectId(postId),
+      txt,
       reactions: [],
       createdAt: new Date().getTime(),
-      imgBodyUrl,
-      shares: [],
-      comments: [],
     }
 
     const collection = await dbService.getCollection('comment')

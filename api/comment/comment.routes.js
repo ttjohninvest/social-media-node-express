@@ -5,8 +5,8 @@ const {
 } = require('../../middlewares/requireAuth.middleware')
 const { log } = require('../../middlewares/logger.middleware')
 const {
-  getComments,
-  getCommentById,
+  // getComments,
+  getCommentsByPostId,
   addComment,
   updateComment,
   removeComment,
@@ -16,12 +16,12 @@ const router = express.Router()
 // middleware that is specific to this router
 // router.use(requireAuth)
 
-router.get('/', log, getComments)
-router.get('/:id', getCommentById)
+// router.get('/', log, getComments)
+router.get('/:id', getCommentsByPostId)
 router.post('/', addComment)
 router.put('/:id', updateComment)
 router.delete('/:id', removeComment)
-router.post('/', requireAuth, requireAdmin, addComment)
+// router.post('/', requireAuth, requireAdmin, addComment)
 // router.put('/:id', requireAuth, requireAdmin, updateComment)
 // router.delete('/:id', requireAuth, requireAdmin, removeComment)
 
