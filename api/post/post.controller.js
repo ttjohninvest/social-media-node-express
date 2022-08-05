@@ -36,8 +36,8 @@ async function getPostById(req, res) {
 // CREATE
 async function addPost(req, res) {
   try {
+    console.log(' req.body:', req.body)
     const post = req.body
-    console.log(post)
     const addedPost = await postService.add(post)
     res.json(addedPost)
   } catch (err) {

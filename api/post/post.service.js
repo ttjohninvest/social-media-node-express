@@ -1,6 +1,7 @@
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
 const ObjectId = require('mongodb').ObjectId
+const utilService = require('../../services/util.service')
 
 module.exports = {
   remove,
@@ -47,10 +48,22 @@ async function remove(postId) {
 }
 
 async function add(post) {
+  const { body, imgBodyUrl, title, userId } = post
   try {
+    const postToAdd = {
+      userId: ObjectId(userId),
+      title,
+      body,
+      reactions: [],
+      createdAt: new Date().getTime(),
+      imgBodyUrl,
+      shares: [],
+      comments: [],
+    }
+
     const collection = await dbService.getCollection('post')
-    const addedPost = await collection.insertOne(post)
-    return addedPost
+    await collection.insertOne(postToAdd)
+    return postToAdd
   } catch (err) {
     logger.error('cannot insert posts', err)
     throw err
@@ -62,7 +75,6 @@ async function update(posts) {
     var id = ObjectId(posts._id)
     delete posts._id
     const collection = await dbService.getCollection('post')
-    console.log({ collection })
     await collection.updateOne({ _id: id }, { $set: { ...posts } })
     return posts
   } catch (err) {

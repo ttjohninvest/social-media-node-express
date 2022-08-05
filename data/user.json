@@ -48,3 +48,42 @@
     "imgUrl": "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTVQIwVzCa63zPc6HQ_YBo8del3xmeO1Ni83XY1yaulXeQuyWu-YzCy4RT3oDWrZN3M"
   }
 ]
+
+
+
+ 
+
+      {
+        "_id" : ObjectId("62e98ef1e135f43b9b47ce15"),
+        "userId" : ObjectId("62ea127beb6ee5f8058fd56e"),
+          "title" : "This is another title",
+          "body" : "You Are Never Too Old To Set Another Goal Or To Dream A New Dream.",
+          "reactions" : [],
+          "createdAt" : 38349575,
+          "imgBodyUrl" : "",
+          "shares" : [],
+          "comments" : [ 
+              {
+                  "_id" : 3,
+                  "body" : "Wow !",
+                  "postId" : ObjectId("62e98ef1e135f43b9b47ce15"),
+                  "createdAt" : NumberLong(1659421208329),
+                  "reactions" : [],
+                  "user" : {
+                      "_id" : ObjectId("62ea20470161fa583da1ff40"),
+                      "username" : "jennifer123"
+                  }
+              }, 
+              {
+                  "_id" : 4,
+                  "body" : "Very nice !",
+                  "postId" : ObjectId("62e98ef1e135f43b9b47ce15"),
+                  "createdAt" : NumberLong(1659421208329),
+                  "reactions" : [],
+                  "user" : {
+                      "_id" : ObjectId("62ea20470161fa583da1ff40"),
+                      "username" : "jennifer123"
+                  }
+              }
+          ]
+      }

@@ -12,7 +12,8 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
-  const criteria = _buildCriteria(filterBy)
+  // const criteria = _buildCriteria(filterBy)
+  const criteria = {}
   try {
     const collection = await dbService.getCollection('user')
     var users = await collection.find(criteria).toArray()
