@@ -70,15 +70,16 @@ async function add(post) {
   }
 }
 
-async function update(posts) {
+async function update(post) {
   try {
-    var id = ObjectId(posts._id)
-    delete posts._id
+    var id = ObjectId(post._id)
+    delete post._id
     const collection = await dbService.getCollection('post')
-    await collection.updateOne({ _id: id }, { $set: { ...posts } })
-    return posts
+    await collection.updateOne({ _id: id }, { $set: { ...post } })
+    const addedPost = { ...post, _id: id }
+    return addedPost
   } catch (err) {
-    logger.error(`cannot update posts ${posts._id}`, err)
+    logger.error(`cannot update post ${post._id}`, err)
     throw err
   }
 }

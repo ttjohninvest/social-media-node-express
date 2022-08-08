@@ -6,10 +6,10 @@ const {
 const { log } = require('../../middlewares/logger.middleware')
 const {
   // getComments,
-  getCommentsByPostId,
+  // getCommentsByPostId,
   addComment,
-  updateComment,
-  removeComment,
+  // updateComment,
+  // removeComment,
 } = require('./comment.controller')
 const router = express.Router()
 
@@ -17,10 +17,10 @@ const router = express.Router()
 // router.use(requireAuth)
 
 // router.get('/', log, getComments)
-router.get('/:id', getCommentsByPostId)
+// router.get('/:id', getCommentsByPostId)
 router.post('/', addComment)
-router.put('/:id', updateComment)
-router.delete('/:id', removeComment)
+// router.put('/:id', updateComment)
+// router.delete('/:id', removeComment)
 // router.post('/', requireAuth, requireAdmin, addComment)
 // router.put('/:id', requireAuth, requireAdmin, updateComment)
 // router.delete('/:id', requireAuth, requireAdmin, removeComment)
