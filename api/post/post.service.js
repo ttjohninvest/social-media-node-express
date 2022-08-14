@@ -13,11 +13,15 @@ module.exports = {
 
 async function query(filterBy) {
   try {
-    // const criteria = _buildCriteria(filterBy)
-    const criteria = {}
+    const criteria = _buildCriteria(filterBy)
+    // const criteria = {}
 
     const collection = await dbService.getCollection('post')
-    var posts = await collection.find(criteria).toArray()
+
+    var posts = await collection
+      .find(criteria)
+      .sort({ createdAt: -1 })
+      .toArray()
     return posts
   } catch (err) {
     logger.error('cannot find posts', err)
@@ -88,8 +92,14 @@ function _buildCriteria(filterBy) {
   const criteria = {}
 
   // by name
-  const regex = new RegExp(filterBy.name, 'i')
-  criteria.name = { $regex: regex }
+  if (filterBy.txt) {
+    const regex = new RegExp(filterBy.txt, 'i')
+    criteria.txt = { $regex: regex }
+  }
+
+  if (filterBy.userId) {
+    criteria.userId = filterBy.userId
+  }
 
   // filter by inStock
   if (filterBy.inStock) {

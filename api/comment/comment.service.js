@@ -8,7 +8,6 @@ module.exports = {
 }
 
 async function add(comment) {
-  console.log(comment)
   const { txt, postId, userId } = comment
   try {
     const commentToAdd = {
@@ -25,7 +24,6 @@ async function add(comment) {
       { _id: ObjectId(postId) },
       { $push: { comments: commentToAdd } }
     )
-    console.log(res)
     return commentToAdd
   } catch (err) {
     logger.error('cannot insert comment', err)
