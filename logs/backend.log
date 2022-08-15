@@ -71472,3 +71472,376 @@
 8/14/2022, 9:05:23 PM - INFO - Req from: Shlomi Nugarker
 8/14/2022, 9:05:27 PM - INFO - Req from: Shlomi Nugarker
 8/14/2022, 9:40:38 PM - INFO - Server is running on port: 3030
+8/14/2022, 10:35:21 PM - INFO - Server is running on port: 3030
+8/14/2022, 10:35:51 PM - DEBUG - auth.service - login with username: shlomi123
+8/14/2022, 10:35:51 PM - INFO - Req from: Shlomi Nugarker
+8/14/2022, 10:44:06 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:44:58 AM - INFO - Server is running on port: 3030
+8/15/2022, 9:45:24 AM - INFO - Server is running on port: 3030
+8/15/2022, 9:48:42 AM - INFO - Server is running on port: 3030
+8/15/2022, 9:50:46 AM - INFO - Server is running on port: 3030
+8/15/2022, 9:56:37 AM - INFO - Server is running on port: 3030
+8/15/2022, 9:58:05 AM - INFO - Server is running on port: 3030
+8/15/2022, 9:58:31 AM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:58:32 AM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:00:33 AM - INFO - Server is running on port: 3030
+8/15/2022, 10:01:10 AM - INFO - Server is running on port: 3030
+8/15/2022, 10:01:21 AM - INFO - Server is running on port: 3030
+8/15/2022, 10:22:09 AM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 10:22:09 AM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:27:32 AM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:27:49 AM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:28:22 AM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:28:30 AM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:29:28 AM - INFO - Server is running on port: 3030
+8/15/2022, 10:29:36 AM - INFO - Server is running on port: 3030
+8/15/2022, 10:31:46 AM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 10:31:46 AM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:33:24 AM - INFO - Server is running on port: 3030
+8/15/2022, 10:33:44 AM - INFO - Server is running on port: 3030
+8/15/2022, 10:34:00 AM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 10:34:00 AM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:35:57 AM - INFO - Server is running on port: 3030
+8/15/2022, 10:35:57 AM - ERROR - Failed to update comment | {}
+8/15/2022, 10:36:15 AM - INFO - Server is running on port: 3030
+8/15/2022, 10:37:39 AM - INFO - Server is running on port: 3030
+8/15/2022, 11:27:42 AM - INFO - Server is running on port: 3030
+8/15/2022, 11:30:49 AM - INFO - Server is running on port: 3030
+8/15/2022, 11:38:22 AM - INFO - Server is running on port: 3030
+8/15/2022, 11:38:50 AM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 11:38:50 AM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 11:39:49 AM - ERROR - Failed to update comment | {}
+8/15/2022, 12:41:50 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:46:55 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:47:59 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:48:25 PM - ERROR - Failed to update comment | {}
+8/15/2022, 12:49:08 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 12:49:08 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 12:49:41 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:49:43 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:50:00 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:50:32 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 12:50:32 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 12:51:04 PM - ERROR - Failed to update comment | {}
+8/15/2022, 12:51:33 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 12:51:33 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 12:51:40 PM - ERROR - Failed to update comment | {}
+8/15/2022, 12:52:53 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:53:04 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 12:53:05 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 12:53:43 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 12:53:50 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:54:15 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 12:54:15 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 12:54:30 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:55:13 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:55:30 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:57:56 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:58:01 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:59:24 PM - INFO - Server is running on port: 3030
+8/15/2022, 12:59:38 PM - INFO - Server is running on port: 3030
+8/15/2022, 1:00:05 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 1:00:06 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 1:00:29 PM - ERROR - Failed to update comment | {}
+8/15/2022, 1:01:33 PM - INFO - Server is running on port: 3030
+8/15/2022, 1:02:56 PM - INFO - Server is running on port: 3030
+8/15/2022, 1:03:11 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 1:03:12 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 1:03:27 PM - ERROR - Failed to update comment | {}
+8/15/2022, 1:04:10 PM - INFO - Server is running on port: 3030
+8/15/2022, 1:04:20 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 1:04:20 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 1:04:25 PM - ERROR - Failed to update comment | {}
+8/15/2022, 1:17:03 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 1:17:10 PM - ERROR - Failed to update comment | {}
+8/15/2022, 1:39:00 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 1:39:06 PM - ERROR - Failed to update comment | {}
+8/15/2022, 1:39:33 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:17:20 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:17:20 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:20:34 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:20:45 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:20:45 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:20:54 PM - ERROR - Failed to update comment | {}
+8/15/2022, 2:21:10 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:28:40 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:29:09 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:29:09 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:29:22 PM - ERROR - Failed to update comment | {}
+8/15/2022, 2:30:00 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:30:14 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:30:14 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:30:19 PM - ERROR - Failed to update comment | {}
+8/15/2022, 2:30:29 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:30:37 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:30:37 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:30:42 PM - ERROR - Failed to update comment | {}
+8/15/2022, 2:31:13 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:31:22 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:31:47 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:31:56 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:31:56 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:32:03 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 2:32:55 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:33:34 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:34:03 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:34:03 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:34:08 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 2:34:40 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:34:46 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:34:54 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:34:54 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:34:59 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 2:37:36 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:37:43 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 2:46:08 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:46:59 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:47:07 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:47:24 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:47:24 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:47:27 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 2:47:34 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:47:34 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:48:12 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:48:26 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:48:27 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:48:30 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 2:49:07 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:49:15 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:49:15 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:50:21 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:51:41 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:51:47 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:51:55 PM - INFO - Server is running on port: 3030
+8/15/2022, 2:52:47 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 2:52:47 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 2:54:41 PM - INFO - Server is running on port: 3030
+8/15/2022, 3:01:03 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 3:01:03 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:03:55 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:14:55 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 3:14:56 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:16:13 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:18:20 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:18:48 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:19:41 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:20:57 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:21:42 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:22:47 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:23:17 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 3:23:18 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:23:56 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:24:11 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 3:24:11 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:25:46 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:38:02 PM - INFO - Server is running on port: 3030
+8/15/2022, 3:38:22 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 3:38:22 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:39:02 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:40:44 PM - INFO - Server is running on port: 3030
+8/15/2022, 3:40:49 PM - INFO - Server is running on port: 3030
+8/15/2022, 3:41:35 PM - INFO - Server is running on port: 3030
+8/15/2022, 3:41:48 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 3:41:48 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:43:03 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:45:27 PM - INFO - Server is running on port: 3030
+8/15/2022, 3:45:50 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 3:45:50 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:46:23 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:48:27 PM - INFO - Server is running on port: 3030
+8/15/2022, 3:48:55 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 3:48:55 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:51:57 PM - INFO - Server is running on port: 3030
+8/15/2022, 3:52:23 PM - INFO - Server is running on port: 3030
+8/15/2022, 3:52:35 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 3:52:35 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:52:52 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 3:53:53 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 3:53:54 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 3:54:18 PM - INFO - Server is running on port: 3030
+8/15/2022, 3:55:02 PM - INFO - Server is running on port: 3030
+8/15/2022, 4:01:10 PM - INFO - Server is running on port: 3030
+8/15/2022, 5:19:22 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 5:19:22 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 5:25:47 PM - INFO - Server is running on port: 3030
+8/15/2022, 5:26:46 PM - INFO - Server is running on port: 3030
+8/15/2022, 5:27:06 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 5:27:06 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 6:05:33 PM - INFO - Server is running on port: 3030
+8/15/2022, 6:05:39 PM - INFO - Server is running on port: 3030
+8/15/2022, 6:36:41 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 6:36:41 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 6:37:39 PM - INFO - Server is running on port: 3030
+8/15/2022, 6:38:20 PM - INFO - Server is running on port: 3030
+8/15/2022, 6:49:33 PM - INFO - Server is running on port: 3030
+8/15/2022, 6:50:53 PM - INFO - Server is running on port: 3030
+8/15/2022, 6:51:11 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 6:51:12 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 6:51:46 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 6:52:50 PM - INFO - Server is running on port: 3030
+8/15/2022, 6:53:13 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 6:53:13 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 6:53:20 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 6:53:41 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 6:53:41 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 6:53:45 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:02:02 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:02:53 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:03:00 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:03:10 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 7:03:10 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:03:18 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 7:03:49 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:04:08 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 7:05:19 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:14:26 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:14:37 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 7:14:37 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:15:11 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:15:40 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:16:15 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:16:56 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:17:03 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:17:15 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 7:17:15 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:17:28 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 7:17:54 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 7:17:55 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:18:39 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:25:24 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:25:47 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 7:25:47 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:27:29 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:27:34 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 7:27:34 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:27:41 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 7:28:11 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:32:12 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:37:38 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:37:44 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 7:37:44 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:37:47 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:37:55 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:38:05 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 7:43:46 PM - INFO - Server is running on port: 3030
+8/15/2022, 7:47:40 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:05:35 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:08:04 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:08:04 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:08:46 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:08:53 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 9:09:07 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:09:59 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:10:10 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:10:16 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:10:28 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:10:28 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:10:33 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 9:10:50 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:11:01 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:11:01 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:11:06 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:11:10 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 9:12:21 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:12:26 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:12:27 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:13:19 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:13:59 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:14:36 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:14:39 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:14:42 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:14:50 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:14:51 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:15:48 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:15:57 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:17:16 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:20:05 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:20:15 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:20:28 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:20:29 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:20:50 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:22:57 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:23:36 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:23:43 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:23:43 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:24:50 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:24:58 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:28:57 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:29:13 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:29:13 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:30:08 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:32:28 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:32:37 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:36:34 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:36:55 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:37:14 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:37:14 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:37:19 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 9:39:17 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:39:31 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:40:27 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:40:28 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:40:49 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:40:55 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 9:41:03 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:41:03 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:41:28 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:41:34 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:41:41 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:41:41 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:41:47 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 9:42:03 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:42:07 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:42:07 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:42:13 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 9:42:36 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:43:04 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:45:01 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:45:11 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:45:11 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:45:16 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 9:45:28 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:45:37 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:45:38 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:45:42 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 9:46:42 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:46:47 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:46:47 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:51:00 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:53:05 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:53:41 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:53:53 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:53:53 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:53:59 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 9:57:53 PM - INFO - Server is running on port: 3030
+8/15/2022, 9:58:13 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 9:58:14 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:00:38 PM - INFO - Server is running on port: 3030
+8/15/2022, 10:00:43 PM - INFO - Server is running on port: 3030
+8/15/2022, 10:00:47 PM - INFO - Server is running on port: 3030
+8/15/2022, 10:00:58 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 10:00:58 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:01:11 PM - ERROR - comment.controller - Failed to update comment | {}
+8/15/2022, 10:05:08 PM - INFO - Server is running on port: 3030
+8/15/2022, 10:05:27 PM - INFO - Server is running on port: 3030
+8/15/2022, 10:05:31 PM - INFO - Server is running on port: 3030
+8/15/2022, 10:05:50 PM - DEBUG - auth.service - login with username: shlomi123
+8/15/2022, 10:05:50 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:07:21 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:09:09 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:09:27 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:09:51 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:10:03 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:10:29 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:21:59 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:25:14 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:26:56 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:31:31 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:33:08 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:33:15 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:36:34 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:39:16 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:45:37 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 10:45:51 PM - INFO - Req from: Shlomi Nugarker
+8/15/2022, 11:02:08 PM - INFO - Server is running on port: 3030
+8/15/2022, 11:06:45 PM - INFO - Server is running on port: 3030

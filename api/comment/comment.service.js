@@ -5,6 +5,7 @@ const utilService = require('../../services/util.service')
 
 module.exports = {
   add,
+  update,
 }
 
 async function add(comment) {
@@ -26,7 +27,26 @@ async function add(comment) {
     )
     return commentToAdd
   } catch (err) {
-    logger.error('cannot insert comment', err)
+    logger.error('comment.service - cannot insert comment', err)
+    throw err
+  }
+}
+
+async function update(comment) {
+  const { txt, postId, userId, _id } = comment
+  try {
+    console.log(comment)
+    const collection = await dbService.getCollection('post')
+    const res = await collection.updateOne(
+      { _id: ObjectId(postId), 'comments._id': _id },
+      { $set: { 'comments.$': comment } }
+    )
+    return comment
+  } catch (err) {
+    logger.error(
+      `comment.service - cannot update post with id: ${post._id}`,
+      err
+    )
     throw err
   }
 }

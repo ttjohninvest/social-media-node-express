@@ -8,7 +8,7 @@ const {
   // getComments,
   // getCommentsByPostId,
   addComment,
-  // updateComment,
+  updateComment,
   // removeComment,
 } = require('./comment.controller')
 const router = express.Router()
@@ -19,7 +19,7 @@ const router = express.Router()
 // router.get('/', log, getComments)
 // router.get('/:id', getCommentsByPostId)
 router.post('/', addComment)
-// router.put('/:id', updateComment)
+router.put('/:id', updateComment)
 // router.delete('/:id', removeComment)
 // router.post('/', requireAuth, requireAdmin, addComment)
 // router.put('/:id', requireAuth, requireAdmin, updateComment)
