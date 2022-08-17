@@ -71845,3 +71845,453 @@
 8/15/2022, 10:45:51 PM - INFO - Req from: Shlomi Nugarker
 8/15/2022, 11:02:08 PM - INFO - Server is running on port: 3030
 8/15/2022, 11:06:45 PM - INFO - Server is running on port: 3030
+8/16/2022, 12:04:41 AM - INFO - Server is running on port: 3030
+8/16/2022, 12:05:19 AM - INFO - Server is running on port: 3030
+8/16/2022, 9:02:12 AM - INFO - Server is running on port: 3030
+8/16/2022, 9:02:52 AM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 9:02:52 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:03:00 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:12:17 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:12:53 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:13:47 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:14:16 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:15:09 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:15:13 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:15:18 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:15:22 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:15:49 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:17:19 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:22:00 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:23:32 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:24:02 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:24:44 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:25:41 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:26:48 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:27:19 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:27:57 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:29:44 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:30:01 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:30:12 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:30:32 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:31:18 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:33:02 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:34:56 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:35:37 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:36:13 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:36:41 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:36:47 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:39:28 AM - DEBUG - auth.service - login with username: michal1234
+8/16/2022, 9:39:28 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:02:44 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:03:12 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:03:35 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:04:03 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:04:11 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:04:14 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:18:21 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:18:23 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:19:06 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:19:51 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:20:30 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:21:04 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:22:16 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:22:54 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:23:22 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:23:50 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:24:27 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:25:19 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:27:42 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:28:47 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:29:09 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:29:33 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:30:42 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:33:12 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:36:02 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:36:18 AM - INFO - Req from: Michal Dam
+8/16/2022, 10:36:26 AM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 10:36:27 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:39:55 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:41:13 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:41:32 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:42:01 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:47:34 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:52:31 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:52:49 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:52:53 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:52:55 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:08:11 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:11:09 AM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:16:46 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:18:55 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:19:42 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:25:29 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:28:13 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:29:23 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:30:16 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:33:59 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:35:52 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:42:47 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:43:12 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:43:25 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 12:59:32 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 1:21:41 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 1:22:57 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 1:29:33 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 1:35:03 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 1:37:42 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 1:40:34 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 1:45:12 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 2:39:16 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 2:39:50 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 2:40:54 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 2:40:58 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 2:41:34 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 2:41:46 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:01:14 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:02:52 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:04:18 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:06:36 PM - INFO - Server is running on port: 3030
+8/16/2022, 3:16:44 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 3:16:44 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:18:33 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:20:35 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:20:59 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:21:47 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:22:05 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:27:27 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:29:18 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:47:31 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:48:54 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 3:48:57 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 4:53:11 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 4:53:54 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 4:54:19 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 4:54:42 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 4:57:37 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 5:40:48 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 5:46:42 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 6:15:09 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 6:16:41 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 6:16:46 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 6:49:44 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 6:55:24 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 6:59:19 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:05:14 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:10:20 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:10:53 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:12:06 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:16:03 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:17:11 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:18:47 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:18:57 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:23:35 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:23:51 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:24:29 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:28:12 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:30:21 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:30:37 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:31:19 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:31:21 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:40:36 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:53:51 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 7:56:14 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 8:06:29 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 8:13:59 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 8:16:48 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 8:25:04 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 8:25:33 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 8:34:12 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 8:43:13 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 8:55:13 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 8:59:40 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:04:28 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:04:49 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:07:37 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:07:46 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:24:01 PM - DEBUG - auth.service - login with username: kim1234
+8/16/2022, 9:24:01 PM - INFO - Req from: Kim Cisneros
+8/16/2022, 9:24:28 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 9:24:29 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:29:20 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:30:35 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:32:32 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:37:24 PM - INFO - Server is running on port: 3030
+8/16/2022, 9:39:01 PM - INFO - Server is running on port: 3030
+8/16/2022, 9:39:50 PM - INFO - Server is running on port: 3030
+8/16/2022, 9:40:05 PM - INFO - Server is running on port: 3030
+8/16/2022, 9:42:38 PM - INFO - Server is running on port: 3030
+8/16/2022, 9:43:10 PM - INFO - Server is running on port: 3030
+8/16/2022, 9:49:29 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 9:49:29 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:50:00 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:50:10 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 9:51:13 PM - INFO - Server is running on port: 3030
+8/16/2022, 9:51:30 PM - INFO - Server is running on port: 3030
+8/16/2022, 9:52:18 PM - INFO - Server is running on port: 3030
+8/16/2022, 9:52:31 PM - INFO - Server is running on port: 3030
+8/16/2022, 9:52:41 PM - INFO - Server is running on port: 3030
+8/16/2022, 9:58:14 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 9:58:15 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:18:00 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:21:46 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:25:56 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:28:05 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:37:13 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:37:32 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:38:01 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:38:41 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:38:49 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:40:08 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:41:13 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:41:22 PM - ERROR - Failed to remove comment | {}
+8/16/2022, 10:41:30 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:41:42 PM - ERROR - Failed to remove comment | {}
+8/16/2022, 10:42:10 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:42:15 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:42:51 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:43:13 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:43:29 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:43:33 PM - ERROR - Failed to remove comment | {}
+8/16/2022, 10:43:44 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 10:43:44 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:44:00 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:44:40 PM - ERROR - Failed to remove comment | {}
+8/16/2022, 10:44:53 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 10:44:53 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:45:04 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:45:18 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:45:35 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:45:43 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 10:45:43 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:45:55 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:46:47 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:47:12 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 10:47:12 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:51:13 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:51:40 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:57:02 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:57:25 PM - ERROR - cannot remove comment ocsvRfNnyerj4kujWTzqTx6x | {}
+8/16/2022, 10:57:25 PM - ERROR - Failed to remove comment | {}
+8/16/2022, 10:57:37 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 10:57:37 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:57:41 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:57:59 PM - INFO - Server is running on port: 3030
+8/16/2022, 10:58:08 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 10:58:08 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 10:58:15 PM - ERROR - cannot remove comment ocsvRfNnyerj4kujWTzqTx6x | {}
+8/16/2022, 10:58:15 PM - ERROR - Failed to remove comment | {}
+8/16/2022, 11:00:31 PM - INFO - Server is running on port: 3030
+8/16/2022, 11:00:43 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 11:00:43 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:00:49 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:01:00 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:01:13 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:02:23 PM - INFO - Server is running on port: 3030
+8/16/2022, 11:02:32 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 11:02:32 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:02:42 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:04:40 PM - INFO - Server is running on port: 3030
+8/16/2022, 11:05:10 PM - INFO - Server is running on port: 3030
+8/16/2022, 11:05:25 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 11:05:25 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:05:37 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:06:31 PM - INFO - Server is running on port: 3030
+8/16/2022, 11:07:01 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 11:07:01 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:07:12 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:15:07 PM - INFO - Server is running on port: 3030
+8/16/2022, 11:15:28 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 11:15:28 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:15:39 PM - INFO - Req from: Shlomi Nugarker
+8/16/2022, 11:16:21 PM - INFO - Server is running on port: 3030
+8/16/2022, 11:17:08 PM - DEBUG - auth.service - login with username: shlomi123
+8/16/2022, 11:17:08 PM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:23:02 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:23:07 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:23:22 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:29:16 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:29:19 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:29:41 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:29:49 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:29:49 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:30:18 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:31:33 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:31:42 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:32:19 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:32:19 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:32:27 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:32:27 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:32:48 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:33:01 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:33:10 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:33:11 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:33:17 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:33:17 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:33:21 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:33:21 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:33:28 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:34:20 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:34:37 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:34:37 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:34:45 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:34:45 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:34:52 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:34:52 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:35:37 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:35:37 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:35:45 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:35:45 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:35:51 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:37:12 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:37:18 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:37:18 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:37:47 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:37:59 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:37:59 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:38:12 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:38:57 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:39:05 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:39:05 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:39:27 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:41:08 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:41:28 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:42:16 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:43:49 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:43:51 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:43:51 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:43:56 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:43:56 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:44:00 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:44:00 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:44:29 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:44:36 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:44:36 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:44:42 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:44:42 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:44:46 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:45:13 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:46:06 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:46:10 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:46:10 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:46:16 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:46:16 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:46:20 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:47:47 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:48:00 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:48:00 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:48:05 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:48:05 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:48:32 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:48:38 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:48:38 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:48:43 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:49:08 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:49:17 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:49:22 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:49:22 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:49:29 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:49:29 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:50:36 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:51:37 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:51:43 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:51:46 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:51:47 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:51:52 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:51:52 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:52:09 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:54:09 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:54:14 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:54:16 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:54:24 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:54:24 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:54:30 AM - ERROR - cannot remove comment ocsvRfNnyerj4kujWTzqTx6x | {}
+8/17/2022, 10:54:30 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:54:52 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:54:56 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:55:14 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:55:14 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:55:22 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:55:22 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:55:25 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:55:54 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:56:01 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:56:01 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 10:56:06 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:56:06 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:56:55 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:56:56 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 10:56:56 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 10:59:40 AM - INFO - Server is running on port: 3030
+8/17/2022, 10:59:56 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 10:59:56 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:00:02 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 11:00:02 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 11:00:31 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:00:45 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 11:00:45 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:00:51 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 11:00:51 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 11:00:53 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:01:21 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:01:38 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:01:42 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 11:01:42 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:01:47 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 11:01:47 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 11:01:52 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:02:39 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:02:55 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:03:07 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 11:03:07 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:03:12 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 11:03:12 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 11:03:15 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 11:03:15 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:04:17 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:04:35 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 11:04:35 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:04:41 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 11:04:41 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 11:04:45 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 11:04:45 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:06:00 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:07:01 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:07:10 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 11:07:10 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:07:15 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 11:07:15 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 11:09:30 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:09:40 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:09:45 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 11:09:45 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:09:50 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 11:09:50 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 11:09:54 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:10:03 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:10:45 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:11:04 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:11:11 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:11:18 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 11:11:18 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:11:28 AM - ERROR - cannot remove comment 6CTadQLJh9nDDMTawZWC7y3i | {}
+8/17/2022, 11:11:28 AM - ERROR - Failed to remove comment | {}
+8/17/2022, 11:12:42 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:12:50 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:14:02 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:15:59 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:16:26 AM - INFO - Server is running on port: 3030
+8/17/2022, 11:16:56 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 11:16:56 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:17:04 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:17:27 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:17:42 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:18:56 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:19:33 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:21:07 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:21:11 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:21:35 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:21:44 AM - DEBUG - auth.service - login with username: shlomi123
+8/17/2022, 11:21:44 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:22:21 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:22:48 AM - INFO - Req from: Shlomi Nugarker
+8/17/2022, 11:23:32 AM - INFO - Server is running on port: 3030

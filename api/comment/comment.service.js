@@ -6,6 +6,7 @@ const utilService = require('../../services/util.service')
 module.exports = {
   add,
   update,
+  remove,
 }
 
 async function add(comment) {
@@ -17,6 +18,7 @@ async function add(comment) {
       postId: ObjectId(postId),
       txt,
       reactions: [],
+      replies: [],
       createdAt: new Date().getTime(),
     }
 
@@ -35,7 +37,6 @@ async function add(comment) {
 async function update(comment) {
   const { txt, postId, userId, _id } = comment
   try {
-    console.log(comment)
     const collection = await dbService.getCollection('post')
     const res = await collection.updateOne(
       { _id: ObjectId(postId), 'comments._id': _id },
@@ -47,6 +48,20 @@ async function update(comment) {
       `comment.service - cannot update post with id: ${post._id}`,
       err
     )
+    throw err
+  }
+}
+
+async function remove(comment) {
+  try {
+    const collection = await dbService.getCollection('post')
+    await collection.updateOne(
+      { _id: ObjectId(comment.postId) },
+      { $pull: { comments: { _id: comment._id } } }
+    )
+    return comment._id
+  } catch (err) {
+    logger.error(`cannot remove comment ${comment._id}`, err)
     throw err
   }
 }
