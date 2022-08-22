@@ -55,7 +55,7 @@ async function add(post) {
   const { body, imgBodyUrl, title, userId } = post
   try {
     const postToAdd = {
-      userId: ObjectId(userId),
+      userId: userId,
       title,
       body,
       reactions: [],
