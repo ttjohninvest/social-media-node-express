@@ -7,14 +7,17 @@ module.exports = {
   // remove,
   query,
   getById,
-  // add,
+  add,
   update,
 }
 
 async function query(filterBy) {
   try {
-    const criteria = _buildCriteria(filterBy)
-    // const criteria = {}
+    // const criteria = _buildCriteria(filterBy)
+    // console.log(filterBy)
+    const criteria = {
+      $or: [{ userId: filterBy.userId }, { userId2: filterBy.userId }],
+    }
 
     const collection = await dbService.getCollection('chat')
 
@@ -51,28 +54,24 @@ async function getById(chatId) {
 //   }
 // }
 
-// async function add(chat) {
-//   const { body, imgBodyUrl, title, userId } = chat
-//   try {
-//     const chatToAdd = {
-//       userId: ObjectId(userId),
-//       title,
-//       body,
-//       reactions: [],
-//       createdAt: new Date().getTime(),
-//       imgBodyUrl,
-//       shares: [],
-//       comments: [],
-//     }
+async function add(chat) {
+  const { userId, userId2 } = chat
+  try {
+    const chatToAdd = {
+      messages: [],
+      createdAt: new Date().getTime(),
+      userId,
+      userId2,
+    }
 
-//     const collection = await dbService.getCollection('chat')
-//     await collection.insertOne(chatToAdd)
-//     return chatToAdd
-//   } catch (err) {
-//     logger.error('cannot insert chats', err)
-//     throw err
-//   }
-// }
+    const collection = await dbService.getCollection('chat')
+    await collection.insertOne(chatToAdd)
+    return chatToAdd
+  } catch (err) {
+    logger.error('cannot insert chats', err)
+    throw err
+  }
+}
 
 async function update(chat) {
   try {
@@ -91,24 +90,8 @@ async function update(chat) {
 function _buildCriteria(filterBy) {
   const criteria = {}
 
-  // by name
-  if (filterBy.txt) {
-    const regex = new RegExp(filterBy.txt, 'i')
-    criteria.txt = { $regex: regex }
-  }
-
   if (filterBy.userId) {
     criteria.userId = filterBy.userId
-  }
-
-  // filter by inStock
-  if (filterBy.inStock) {
-    criteria.inStock = { $eq: JSON.parse(filterBy.inStock) }
-  }
-
-  // filter by labels
-  if (filterBy.labels?.length) {
-    criteria.labels = { $in: filterBy.labels }
   }
 
   return criteria

@@ -7,7 +7,7 @@ const { log } = require('../../middlewares/logger.middleware')
 const {
   getChats,
   getChatById,
-  // addChat,
+  addChat,
   updateChat,
   // removeChat,
 } = require('./chat.controller')
@@ -18,7 +18,7 @@ const router = express.Router()
 
 router.get('/', log, getChats)
 router.get('/:id', getChatById)
-// router.post('/', addChat)
+router.post('/', addChat)
 router.put('/:id', updateChat)
 // router.delete('/:id', removeChat)
 // router.post('/', requireAuth, requireAdmin, addChat)

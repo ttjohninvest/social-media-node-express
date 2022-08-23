@@ -96,6 +96,7 @@ async function add(user) {
       birthDate: null,
       email: null,
       bg: '',
+      position: null,
       imgUrl:
         'https://banner2.cleanpng.com/20180722/gfc/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291.jpg',
     }

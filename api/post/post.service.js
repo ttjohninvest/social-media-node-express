@@ -58,6 +58,7 @@ async function add(post) {
       userId: userId,
       title,
       body,
+      style: null,
       reactions: [],
       createdAt: new Date().getTime(),
       imgBodyUrl,

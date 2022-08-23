@@ -4,7 +4,7 @@ const chatService = require('./chat.service')
 module.exports = {
   getChats,
   getChatById,
-  // addChat,
+  addChat,
   updateChat,
   // removeChat,
 }
@@ -34,16 +34,16 @@ async function getChatById(req, res) {
 }
 
 // // CREATE
-// async function addChat(req, res) {
-//   try {
-//     const chat = req.body
-//     const addedChat = await chatService.add(chat)
-//     res.json(addedChat)
-//   } catch (err) {
-//     logger.error('Failed to add chat', err)
-//     res.status(500).send({ err: 'Failed to add chat' })
-//   }
-// }
+async function addChat(req, res) {
+  try {
+    const chat = req.body
+    const addedChat = await chatService.add(chat)
+    res.json(addedChat)
+  } catch (err) {
+    logger.error('Failed to add chat', err)
+    res.status(500).send({ err: 'Failed to add chat' })
+  }
+}
 
 // // UPDATE
 async function updateChat(req, res) {
