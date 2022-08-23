@@ -8,7 +8,7 @@ module.exports = {
   query,
   getById,
   // add,
-  // update,
+  update,
 }
 
 async function query(filterBy) {
@@ -74,19 +74,19 @@ async function getById(chatId) {
 //   }
 // }
 
-// async function update(chat) {
-//   try {
-//     var id = ObjectId(chat._id)
-//     delete chat._id
-//     const collection = await dbService.getCollection('chat')
-//     await collection.updateOne({ _id: id }, { $set: { ...chat } })
-//     const addedPost = { ...chat, _id: id }
-//     return addedPost
-//   } catch (err) {
-//     logger.error(`cannot update chat ${chat._id}`, err)
-//     throw err
-//   }
-// }
+async function update(chat) {
+  try {
+    var id = ObjectId(chat._id)
+    delete chat._id
+    const collection = await dbService.getCollection('chat')
+    await collection.updateOne({ _id: id }, { $set: { ...chat } })
+    const addedPost = { ...chat, _id: id }
+    return addedPost
+  } catch (err) {
+    logger.error(`cannot update chat ${chat._id}`, err)
+    throw err
+  }
+}
 
 function _buildCriteria(filterBy) {
   const criteria = {}

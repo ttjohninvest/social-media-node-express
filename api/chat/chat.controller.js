@@ -5,7 +5,7 @@ module.exports = {
   getChats,
   getChatById,
   // addChat,
-  // updateChat,
+  updateChat,
   // removeChat,
 }
 
@@ -46,16 +46,16 @@ async function getChatById(req, res) {
 // }
 
 // // UPDATE
-// async function updateChat(req, res) {
-//   try {
-//     const chat = req.body
-//     const updatedChat = await chatService.update(chat)
-//     res.json(updatedChat)
-//   } catch (err) {
-//     logger.error('Failed to update chat', err)
-//     res.status(500).send({ err: 'Failed to update chat' })
-//   }
-// }
+async function updateChat(req, res) {
+  try {
+    const chat = req.body
+    const updatedChat = await chatService.update(chat)
+    res.json(updatedChat)
+  } catch (err) {
+    logger.error('Failed to update chat', err)
+    res.status(500).send({ err: 'Failed to update chat' })
+  }
+}
 
 // // DELETE
 // async function removeChat(req, res) {
