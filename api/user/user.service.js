@@ -12,16 +12,17 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
-  // const criteria = _buildCriteria(filterBy)
-  const criteria = {}
   try {
+    const criteria = _buildCriteria(filterBy)
+    // const criteria = {}
+
     const collection = await dbService.getCollection('user')
     var users = await collection.find(criteria).toArray()
+
     users = users.map((user) => {
       delete user.password
       return user
     })
-    console.log({ users })
     return users
   } catch (err) {
     logger.error('cannot find users', err)
@@ -111,6 +112,7 @@ async function add(user) {
 
 function _buildCriteria(filterBy) {
   const criteria = {}
+
   if (filterBy.txt) {
     const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
     criteria.$or = [
@@ -122,8 +124,18 @@ function _buildCriteria(filterBy) {
       },
     ]
   }
-  if (filterBy.minBalance) {
-    criteria.balance = { $gte: filterBy.minBalance }
+
+  // filter by position - if exists
+
+  // if (filterBy.position) {
+  //   criteria.position = { $exists: true }
+  // }
+  if (filterBy.position) {
+    criteria.$and = [
+      { 'position.lat': { $exists: true } },
+      { 'position.lng': { $exists: true } },
+    ]
   }
+
   return criteria
 }

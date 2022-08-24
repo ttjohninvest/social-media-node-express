@@ -64,6 +64,7 @@ async function add(post) {
       imgBodyUrl,
       shares: [],
       comments: [],
+      position: null,
     }
 
     const collection = await dbService.getCollection('post')
@@ -102,15 +103,26 @@ function _buildCriteria(filterBy) {
     criteria.userId = filterBy.userId
   }
 
-  // filter by inStock
+  // filter by position - if exists
+
+  // if (filterBy.position) {
+  //   criteria.position = { $exists: true }
+  // }
+  if (filterBy.position) {
+    criteria.$and = [
+      { 'position.lat': { $exists: true } },
+      { 'position.lng': { $exists: true } },
+    ]
+  }
+
   if (filterBy.inStock) {
     criteria.inStock = { $eq: JSON.parse(filterBy.inStock) }
   }
 
-  // filter by labels
-  if (filterBy.labels?.length) {
-    criteria.labels = { $in: filterBy.labels }
-  }
+  // // filter by labels
+  // if (filterBy.labels?.length) {
+  //   criteria.labels = { $in: filterBy.labels }
+  // }
 
   return criteria
 }

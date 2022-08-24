@@ -12,7 +12,9 @@ function getTime() {
 }
 
 function doLog(level, ...args) {
-  const strs = args.map((arg) => (typeof arg === 'string' ? arg : JSON.stringify(arg)))
+  const strs = args.map((arg) =>
+    typeof arg === 'string' ? arg : JSON.stringify(arg)
+  )
   var line = strs.join(' | ')
   line = `${getTime()} - ${level} - ${line}\n`
   console.log(line)
