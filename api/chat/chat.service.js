@@ -55,11 +55,11 @@ async function getById(chatId) {
 // }
 
 async function add(chat) {
-  const { userId, userId2 } = chat
+  const { userId, userId2, messages, createdAt } = chat
   try {
     const chatToAdd = {
-      messages: [],
-      createdAt: new Date().getTime(),
+      messages,
+      createdAt,
       userId,
       userId2,
     }

@@ -52,7 +52,8 @@ async function remove(postId) {
 }
 
 async function add(post) {
-  const { body, imgBodyUrl, title, userId } = post
+  const { body, imgBodyUrl, title, userId, position, videoBodyUrl, fullname } =
+    post
   try {
     const postToAdd = {
       userId: userId,
@@ -64,7 +65,9 @@ async function add(post) {
       imgBodyUrl,
       shares: [],
       comments: [],
-      position: null,
+      position: position || null,
+      videoBodyUrl,
+      fullname,
     }
 
     const collection = await dbService.getCollection('post')
@@ -93,14 +96,26 @@ async function update(post) {
 function _buildCriteria(filterBy) {
   const criteria = {}
 
-  // by name
+  // by txt
+  // if (filterBy.txt) {
+  //   const regex = new RegExp(filterBy.txt, 'i')
+  //   criteria.body = { $regex: regex }
+  // }
   if (filterBy.txt) {
     const regex = new RegExp(filterBy.txt, 'i')
-    criteria.txt = { $regex: regex }
+    criteria.$or = [
+      { body: { $regex: regex } },
+      { fullname: { $regex: regex } },
+      { title: { $regex: regex } },
+    ]
   }
 
   if (filterBy.userId) {
     criteria.userId = filterBy.userId
+  }
+
+  if (filterBy._id) {
+    criteria._id = ObjectId(filterBy._id)
   }
 
   // filter by position - if exists
