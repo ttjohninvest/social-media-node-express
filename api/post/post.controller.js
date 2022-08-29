@@ -7,6 +7,7 @@ module.exports = {
   addPost,
   updatePost,
   removePost,
+  getPostsLength,
 }
 
 // LIST
@@ -15,6 +16,17 @@ async function getPosts(req, res) {
     const filterBy = req.query
     const posts = await postService.query(filterBy)
     res.json(posts)
+  } catch (err) {
+    logger.error('Failed to get posts', err)
+    res.status(500).send({ err: 'Failed to get posts' })
+  }
+}
+
+async function getPostsLength(req, res) {
+  try {
+    const filterBy = req.query
+    const postsLength = await postService.getPostsLength(filterBy)
+    res.json(postsLength)
   } catch (err) {
     logger.error('Failed to get posts', err)
     res.status(500).send({ err: 'Failed to get posts' })

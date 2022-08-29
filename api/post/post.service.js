@@ -9,6 +9,7 @@ module.exports = {
   getById,
   add,
   update,
+  getPostsLength,
 }
 
 async function query(filterBy) {
@@ -18,11 +19,53 @@ async function query(filterBy) {
 
     const collection = await dbService.getCollection('post')
 
+    // console.log({ filterBy })
+
+    let limit = 5
+    let endIndex = 0
+    let sort = {
+      createdAt: -1,
+    }
+
+    if (filterBy.page) {
+      const page = filterBy.page
+      endIndex = page * limit
+    }
+
+    if (filterBy.sort) {
+      sort.createdAt = filterBy.sort
+    }
+
+    if (filterBy.position) {
+      // load all posts with position
+      limit = Infinity
+      endIndex = 0
+    }
+    console.log({ endIndex }, { limit })
+
+    var posts = await collection
+      .find(criteria)
+      .sort(sort)
+      .limit(limit)
+      .skip(endIndex)
+      .toArray()
+    return posts
+  } catch (err) {
+    logger.error('cannot find posts', err)
+    throw err
+  }
+}
+async function getPostsLength(filterBy) {
+  try {
+    const criteria = _buildCriteria(filterBy)
+
+    const collection = await dbService.getCollection('post')
+
     var posts = await collection
       .find(criteria)
       .sort({ createdAt: -1 })
       .toArray()
-    return posts
+    return posts.length
   } catch (err) {
     logger.error('cannot find posts', err)
     throw err

@@ -10,6 +10,7 @@ const {
   addPost,
   updatePost,
   removePost,
+  getPostsLength,
 } = require('./post.controller')
 const router = express.Router()
 
@@ -17,6 +18,7 @@ const router = express.Router()
 // router.use(requireAuth)
 
 router.get('/', log, getPosts)
+router.get('/length', log, getPostsLength)
 router.get('/:id', getPostById)
 router.post('/', addPost)
 router.put('/:id', updatePost)
