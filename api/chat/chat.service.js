@@ -55,13 +55,14 @@ async function getById(chatId) {
 // }
 
 async function add(chat) {
-  const { userId, userId2, messages, createdAt } = chat
+  const { userId, userId2, messages, createdAt, users } = chat
   try {
     const chatToAdd = {
       messages,
       createdAt,
       userId,
       userId2,
+      users,
     }
 
     const collection = await dbService.getCollection('chat')

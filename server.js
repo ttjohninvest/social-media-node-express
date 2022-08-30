@@ -36,6 +36,7 @@ const userRoutes = require('./api/user/user.routes')
 const postRoutes = require('./api/post/post.routes')
 const commentRoutes = require('./api/comment/comment.routes')
 const chatRoutes = require('./api/chat/chat.routes')
+const activityRoutes = require('./api/activity/activity.routes')
 const { connectSockets } = require('./services/socket.service')
 
 // routes
@@ -47,6 +48,7 @@ app.use('/api/user', userRoutes)
 app.use('/api/post', postRoutes)
 app.use('/api/comment', commentRoutes)
 app.use('/api/chat', chatRoutes)
+app.use('/api/activity', activityRoutes)
 
 connectSockets(http, session)
 

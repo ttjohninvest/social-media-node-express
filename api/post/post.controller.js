@@ -25,7 +25,7 @@ async function getPosts(req, res) {
 async function getPostsLength(req, res) {
   try {
     const filterBy = req.query
-    const postsLength = await postService.getPostsLength(filterBy)
+    const postsLength = await postService.getLength(filterBy)
     res.json(postsLength)
   } catch (err) {
     logger.error('Failed to get posts', err)

@@ -9,7 +9,7 @@ module.exports = {
   getById,
   add,
   update,
-  getPostsLength,
+  getLength,
 }
 
 async function query(filterBy) {
@@ -55,7 +55,7 @@ async function query(filterBy) {
     throw err
   }
 }
-async function getPostsLength(filterBy) {
+async function getLength(filterBy) {
   try {
     const criteria = _buildCriteria(filterBy)
 
