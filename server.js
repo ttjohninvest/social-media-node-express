@@ -20,7 +20,9 @@ app.use(express.static('public'))
 
 if (process.env.NODE_ENV === 'production') {
   // Express serve static files on production environment
-  app.use(express.static(path.resolve(__dirname, 'public')))
+
+  // app.use(express.static(path.resolve(__dirname, 'public')))
+  app.use(express.static(path.join(__dirname, '/front/build')))
 } else {
   // Configuring CORS
   const corsOptions = {
@@ -55,8 +57,12 @@ connectSockets(http, session)
 // Make every server-side-route to match the index.html
 // so when requesting http://localhost:3030/index.html/car/123 it will still respond with
 // our SPA (single page app) (the index.html file) and allow vue-router to take it from there
-app.get('/**', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'))
+
+// app.get('/**', (req, res) => {
+//   res.sendFile(path.join(__dirname, 'public', 'index.html'))
+// })
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '/front/build', 'index.html'))
 })
 
 const PORT = process.env.PORT || 3030
