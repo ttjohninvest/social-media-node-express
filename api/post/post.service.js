@@ -95,8 +95,16 @@ async function remove(postId) {
 }
 
 async function add(post) {
-  const { body, imgBodyUrl, title, userId, position, videoBodyUrl, fullname } =
-    post
+  const {
+    body,
+    imgBodyUrl,
+    title,
+    userId,
+    position,
+    videoBodyUrl,
+    fullname,
+    link,
+  } = post
   try {
     const postToAdd = {
       userId: userId,
@@ -111,6 +119,7 @@ async function add(post) {
       position: position || null,
       videoBodyUrl,
       fullname,
+      link,
     }
 
     const collection = await dbService.getCollection('post')

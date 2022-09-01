@@ -99,7 +99,7 @@ async function add(user) {
       bg: '',
       position: null,
       imgUrl:
-        'https://banner2.cleanpng.com/20180722/gfc/kisspng-user-profile-2018-in-sight-user-conference-expo-5b554c0968c377.0307553315323166814291.jpg',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVe0cFaZ9e5Hm9X-tdWRLSvoZqg2bjemBABA&usqp=CAU',
     }
     const collection = await dbService.getCollection('user')
     await collection.insertOne(userToAdd)
