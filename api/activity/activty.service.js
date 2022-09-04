@@ -7,7 +7,7 @@ module.exports = { query, add, update, getLength }
 
 async function query(filterBy) {
   try {
-    console.log(filterBy)
+    // console.log(filterBy)
     const criteria = _buildCriteria(filterBy)
     // const criteria = {}
 
@@ -28,7 +28,7 @@ async function query(filterBy) {
 
 async function add(activity) {
   try {
-    console.log(activity)
+    // console.log(activity)
     const activityToAdd = {
       ...activity,
       createdAt: new Date().getTime(),

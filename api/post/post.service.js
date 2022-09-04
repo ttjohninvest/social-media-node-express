@@ -41,7 +41,6 @@ async function query(filterBy) {
       limit = Infinity
       endIndex = 0
     }
-    console.log({ endIndex }, { limit })
 
     var posts = await collection
       .find(criteria)
