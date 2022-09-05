@@ -1,7 +1,9 @@
 const asyncLocalStorage = require('./als.service')
 const logger = require('./logger.service')
 
-var gIo = null
+let gIo = null
+
+let connectedUsers = []
 
 function connectSockets(http, session) {
   gIo = require('socket.io')(http, {
@@ -12,13 +14,23 @@ function connectSockets(http, session) {
   gIo.on('connection', (socket) => {
     console.log('New socket', socket.id)
 
+    socket.emit('add-connected-users', connectedUsers) /////////////////////////////////////
+
     socket.on('disconnect', (socket) => {
       console.log('Someone disconnected')
+      connectedUsers = connectedUsers.filter((u) => u.userId !== socket.userId) /////////////
+      // todo? emit connected users
     })
 
-    socket.on('setUserSocket', (userId) => {
-      console.log('a user connected', userId)
+    socket.on('setUserSocket', async (userId) => {
       socket.userId = userId
+
+      if (!connectedUsers.includes(userId)) connectedUsers.push(userId) ////////////////////
+      // socket.emit('add-connected-users', connectedUsers) /////////////////////////////////////
+      // const sockets = await _getAllSockets()
+      // sockets.forEach((socket) =>
+      //   socket.broadcast.emit('add-connected-users', connectedUsers)
+      // )
     })
 
     socket.on('post-updated', (post) => {
@@ -34,6 +46,7 @@ function connectSockets(http, session) {
     socket.on('chat-updated', async (chat) => {
       const userSocket = await _getUserSocket(chat.userId)
       const userSocket2 = await _getUserSocket(chat.userId2)
+      console.log({ userSocket2, userSocket })
       if (userSocket) {
         // if (userSocket && socket.userId !== userSocket.userId) {
         userSocket.emit('update-chat', chat)
@@ -47,6 +60,16 @@ function connectSockets(http, session) {
     })
     socket.on('chat-added', (chat) => {
       socket.broadcast.emit('add-chat', chat)
+    })
+
+    socket.on('comment-updated', (comment) => {
+      socket.broadcast.emit('update-comment', comment)
+    })
+    socket.on('comment-added', (comment) => {
+      socket.broadcast.emit('add-comment', comment)
+    })
+    socket.on('comment-removed', (comment) => {
+      socket.broadcast.emit('remove-comment', comment)
     })
 
     // socket.on('chat topic', (topic) => {

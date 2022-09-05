@@ -7041,3 +7041,929 @@
 9/4/2022, 8:24:12 PM - INFO - Req from: Israel Israeli
 9/4/2022, 8:24:17 PM - INFO - Req from: Israel Israeli
 9/4/2022, 8:25:27 PM - INFO - Server is running on port: 3030
+9/4/2022, 8:30:34 PM - ERROR - cannot find chats | {}
+9/4/2022, 8:30:34 PM - ERROR - Failed to get chats | {}
+9/4/2022, 8:30:34 PM - ERROR - cannot find activities | {}
+9/4/2022, 8:30:34 PM - ERROR - Failed to get activties | {}
+9/4/2022, 8:30:34 PM - ERROR - cannot find posts | {}
+9/4/2022, 8:30:34 PM - ERROR - Failed to get posts | {}
+9/4/2022, 8:30:34 PM - ERROR - cannot find posts | {}
+9/4/2022, 8:30:34 PM - ERROR - Failed to get posts | {}
+9/4/2022, 8:30:34 PM - ERROR - cannot find chats | {}
+9/4/2022, 8:30:34 PM - ERROR - Failed to get chats | {}
+9/4/2022, 8:30:34 PM - ERROR - cannot find activities | {}
+9/4/2022, 8:30:34 PM - ERROR - Failed to get activties | {}
+9/4/2022, 8:30:35 PM - ERROR - cannot find chats | {}
+9/4/2022, 8:30:35 PM - ERROR - Failed to get chats | {}
+9/4/2022, 8:30:35 PM - ERROR - cannot find activities | {}
+9/4/2022, 8:30:35 PM - ERROR - Failed to get activties | {}
+9/4/2022, 8:30:35 PM - ERROR - cannot find chats | {}
+9/4/2022, 8:30:35 PM - ERROR - Failed to get chats | {}
+9/4/2022, 8:30:41 PM - ERROR - cannot find posts | {}
+9/4/2022, 8:30:41 PM - ERROR - Failed to get posts | {}
+9/4/2022, 8:30:41 PM - ERROR - cannot find posts | {}
+9/4/2022, 8:30:41 PM - ERROR - Failed to get posts | {}
+9/4/2022, 8:30:48 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 8:30:48 PM - ERROR - while finding user guest123 | {}
+9/4/2022, 8:30:48 PM - ERROR - Failed to Login ReferenceError: logger is not defined
+9/4/2022, 8:31:08 PM - INFO - Server is running on port: 3030
+9/4/2022, 8:31:09 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 8:31:11 PM - INFO - Req from: Guest
+9/4/2022, 8:31:12 PM - INFO - Req from: Guest
+9/4/2022, 8:31:12 PM - INFO - Req from: Guest
+9/4/2022, 8:31:41 PM - DEBUG - auth.service - login with username: shlomi123
+9/4/2022, 8:31:42 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 8:31:42 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 8:31:42 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 8:31:45 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 8:31:45 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 8:31:47 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 8:31:47 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 8:31:50 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 8:31:50 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 8:31:51 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 8:31:51 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 8:32:04 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 8:32:17 PM - INFO - Server is running on port: 3030
+9/4/2022, 8:33:49 PM - INFO - Server is running on port: 3030
+9/4/2022, 9:44:18 PM - INFO - Server is running on port: 3030
+9/4/2022, 9:49:47 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 9:49:48 PM - INFO - Req from: Guest
+9/4/2022, 9:49:48 PM - INFO - Req from: Guest
+9/4/2022, 9:49:48 PM - INFO - Req from: Guest
+9/4/2022, 9:52:13 PM - INFO - Req from: Guest
+9/4/2022, 9:52:13 PM - INFO - Req from: Guest
+9/4/2022, 9:52:13 PM - INFO - Req from: Guest
+9/4/2022, 9:52:47 PM - INFO - Req from: Guest
+9/4/2022, 9:52:59 PM - INFO - Req from: Guest
+9/4/2022, 9:54:28 PM - INFO - Server is running on port: 3030
+9/4/2022, 9:57:50 PM - INFO - Server is running on port: 3030
+9/4/2022, 9:57:58 PM - INFO - Server is running on port: 3030
+9/4/2022, 9:59:52 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:00:11 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:02:05 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:03:13 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:04:05 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:06:08 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:08:35 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:41:53 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 10:41:54 PM - INFO - Req from: Guest
+9/4/2022, 10:41:54 PM - INFO - Req from: Guest
+9/4/2022, 10:41:54 PM - INFO - Req from: Guest
+9/4/2022, 10:41:57 PM - INFO - Req from: Guest
+9/4/2022, 10:42:49 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 10:42:49 PM - INFO - Req from: Guest
+9/4/2022, 10:42:49 PM - INFO - Req from: Guest
+9/4/2022, 10:42:49 PM - INFO - Req from: Guest
+9/4/2022, 10:44:37 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:46:55 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:47:48 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:47:53 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 10:47:55 PM - INFO - Req from: Guest
+9/4/2022, 10:47:55 PM - INFO - Req from: Guest
+9/4/2022, 10:47:55 PM - INFO - Req from: Guest
+9/4/2022, 10:50:18 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:50:49 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 10:50:52 PM - INFO - Req from: Guest
+9/4/2022, 10:50:52 PM - INFO - Req from: Guest
+9/4/2022, 10:50:52 PM - INFO - Req from: Guest
+9/4/2022, 10:52:12 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:52:18 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 10:52:20 PM - INFO - Req from: Guest
+9/4/2022, 10:52:20 PM - INFO - Req from: Guest
+9/4/2022, 10:52:20 PM - INFO - Req from: Guest
+9/4/2022, 10:52:59 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:53:05 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:55:40 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:55:43 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:56:00 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:56:08 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 10:56:10 PM - INFO - Req from: Guest
+9/4/2022, 10:56:10 PM - INFO - Req from: Guest
+9/4/2022, 10:56:10 PM - INFO - Req from: Guest
+9/4/2022, 10:56:45 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:56:50 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 10:56:52 PM - INFO - Req from: Guest
+9/4/2022, 10:56:52 PM - INFO - Req from: Guest
+9/4/2022, 10:56:52 PM - INFO - Req from: Guest
+9/4/2022, 10:58:26 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:58:35 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 10:58:36 PM - INFO - Req from: Guest
+9/4/2022, 10:58:36 PM - INFO - Req from: Guest
+9/4/2022, 10:58:36 PM - INFO - Req from: Guest
+9/4/2022, 10:59:46 PM - INFO - Server is running on port: 3030
+9/4/2022, 10:59:50 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 10:59:52 PM - INFO - Req from: Guest
+9/4/2022, 10:59:52 PM - INFO - Req from: Guest
+9/4/2022, 10:59:52 PM - INFO - Req from: Guest
+9/4/2022, 11:02:08 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:02:08 PM - INFO - Req from: Guest
+9/4/2022, 11:02:08 PM - INFO - Req from: Guest
+9/4/2022, 11:02:08 PM - INFO - Req from: Guest
+9/4/2022, 11:02:36 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:02:43 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:02:45 PM - INFO - Req from: Guest
+9/4/2022, 11:02:45 PM - INFO - Req from: Guest
+9/4/2022, 11:02:45 PM - INFO - Req from: Guest
+9/4/2022, 11:05:40 PM - INFO - Req from: Guest
+9/4/2022, 11:07:17 PM - INFO - Req from: Guest
+9/4/2022, 11:07:21 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:07:22 PM - INFO - Req from: Guest
+9/4/2022, 11:07:22 PM - INFO - Req from: Guest
+9/4/2022, 11:07:22 PM - INFO - Req from: Guest
+9/4/2022, 11:08:24 PM - INFO - Req from: Guest
+9/4/2022, 11:08:44 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:08:45 PM - INFO - Req from: Guest
+9/4/2022, 11:08:45 PM - INFO - Req from: Guest
+9/4/2022, 11:08:45 PM - INFO - Req from: Guest
+9/4/2022, 11:09:55 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:10:32 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:10:42 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:10:44 PM - INFO - Req from: Guest
+9/4/2022, 11:10:44 PM - INFO - Req from: Guest
+9/4/2022, 11:10:44 PM - INFO - Req from: Guest
+9/4/2022, 11:11:20 PM - INFO - Req from: Guest
+9/4/2022, 11:11:24 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:11:24 PM - INFO - Req from: Guest
+9/4/2022, 11:11:24 PM - INFO - Req from: Guest
+9/4/2022, 11:11:24 PM - INFO - Req from: Guest
+9/4/2022, 11:11:37 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:11:38 PM - INFO - Req from: Guest
+9/4/2022, 11:11:38 PM - INFO - Req from: Guest
+9/4/2022, 11:11:38 PM - INFO - Req from: Guest
+9/4/2022, 11:11:45 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:11:45 PM - INFO - Req from: Guest
+9/4/2022, 11:11:45 PM - INFO - Req from: Guest
+9/4/2022, 11:11:45 PM - INFO - Req from: Guest
+9/4/2022, 11:12:26 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:12:26 PM - INFO - Req from: Guest
+9/4/2022, 11:12:26 PM - INFO - Req from: Guest
+9/4/2022, 11:12:26 PM - INFO - Req from: Guest
+9/4/2022, 11:13:16 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:13:16 PM - INFO - Req from: Guest
+9/4/2022, 11:13:16 PM - INFO - Req from: Guest
+9/4/2022, 11:13:16 PM - INFO - Req from: Guest
+9/4/2022, 11:14:32 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:14:32 PM - INFO - Req from: Guest
+9/4/2022, 11:14:32 PM - INFO - Req from: Guest
+9/4/2022, 11:14:32 PM - INFO - Req from: Guest
+9/4/2022, 11:15:53 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:15:53 PM - INFO - Req from: Guest
+9/4/2022, 11:15:53 PM - INFO - Req from: Guest
+9/4/2022, 11:15:53 PM - INFO - Req from: Guest
+9/4/2022, 11:17:06 PM - DEBUG - auth.service - login with username: shlomi123
+9/4/2022, 11:17:07 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:17:07 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:17:07 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:18:02 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:18:11 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:18:13 PM - INFO - Req from: Guest
+9/4/2022, 11:18:13 PM - INFO - Req from: Guest
+9/4/2022, 11:18:13 PM - INFO - Req from: Guest
+9/4/2022, 11:21:31 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:21:39 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:21:41 PM - INFO - Req from: Guest
+9/4/2022, 11:21:41 PM - INFO - Req from: Guest
+9/4/2022, 11:21:41 PM - INFO - Req from: Guest
+9/4/2022, 11:21:56 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:21:57 PM - INFO - Req from: Guest
+9/4/2022, 11:21:57 PM - INFO - Req from: Guest
+9/4/2022, 11:21:57 PM - INFO - Req from: Guest
+9/4/2022, 11:23:34 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:23:38 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:23:40 PM - INFO - Req from: Guest
+9/4/2022, 11:23:40 PM - INFO - Req from: Guest
+9/4/2022, 11:23:40 PM - INFO - Req from: Guest
+9/4/2022, 11:24:45 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:24:47 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:24:49 PM - INFO - Req from: Guest
+9/4/2022, 11:24:49 PM - INFO - Req from: Guest
+9/4/2022, 11:24:49 PM - INFO - Req from: Guest
+9/4/2022, 11:25:49 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:25:51 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:25:56 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:26:07 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:26:09 PM - INFO - Req from: Guest
+9/4/2022, 11:26:09 PM - INFO - Req from: Guest
+9/4/2022, 11:26:09 PM - INFO - Req from: Guest
+9/4/2022, 11:26:49 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:27:02 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:27:49 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:27:50 PM - INFO - Req from: Guest
+9/4/2022, 11:27:50 PM - INFO - Req from: Guest
+9/4/2022, 11:27:50 PM - INFO - Req from: Guest
+9/4/2022, 11:31:44 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:31:45 PM - INFO - Req from: Guest
+9/4/2022, 11:31:45 PM - INFO - Req from: Guest
+9/4/2022, 11:31:45 PM - INFO - Req from: Guest
+9/4/2022, 11:32:52 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:33:12 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:34:02 PM - DEBUG - auth.service - login with username: shlomi123
+9/4/2022, 11:34:04 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:34:04 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:34:04 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:34:34 PM - DEBUG - auth.service - login with username: shlomi123
+9/4/2022, 11:34:34 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:34:34 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:34:34 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:34:57 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:35:10 PM - DEBUG - auth.service - login with username: shlomi123
+9/4/2022, 11:35:12 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:35:12 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:35:12 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:35:39 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:35:39 PM - INFO - Req from: Guest
+9/4/2022, 11:35:39 PM - INFO - Req from: Guest
+9/4/2022, 11:35:39 PM - INFO - Req from: Guest
+9/4/2022, 11:35:50 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:35:50 PM - INFO - Req from: Guest
+9/4/2022, 11:35:50 PM - INFO - Req from: Guest
+9/4/2022, 11:35:50 PM - INFO - Req from: Guest
+9/4/2022, 11:36:04 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:36:04 PM - INFO - Req from: Guest
+9/4/2022, 11:36:04 PM - INFO - Req from: Guest
+9/4/2022, 11:36:04 PM - INFO - Req from: Guest
+9/4/2022, 11:36:20 PM - INFO - Req from: Guest
+9/4/2022, 11:36:20 PM - INFO - Req from: Guest
+9/4/2022, 11:39:10 PM - DEBUG - auth.service - login with username: shlomi123
+9/4/2022, 11:39:10 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:39:10 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:39:10 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:39:14 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:39:31 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:39:31 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:42:45 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:43:00 PM - INFO - Server is running on port: 3030
+9/4/2022, 11:47:14 PM - DEBUG - auth.service - login with username: shlomi123
+9/4/2022, 11:47:17 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:47:17 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:47:17 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:47:28 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:47:28 PM - INFO - Req from: Shlomi Nugarker
+9/4/2022, 11:47:31 PM - DEBUG - auth.service - login with username: guest123
+9/4/2022, 11:47:31 PM - INFO - Req from: Guest
+9/4/2022, 11:47:31 PM - INFO - Req from: Guest
+9/4/2022, 11:47:31 PM - INFO - Req from: Guest
+9/4/2022, 11:51:35 PM - INFO - Req from: Guest
+9/4/2022, 11:51:35 PM - INFO - Req from: Guest
+9/4/2022, 11:51:35 PM - INFO - Req from: Guest
+9/4/2022, 11:51:35 PM - INFO - Req from: Guest
+9/4/2022, 11:51:35 PM - INFO - Req from: Guest
+9/4/2022, 11:51:35 PM - INFO - Req from: Guest
+9/4/2022, 11:51:36 PM - INFO - Req from: Guest
+9/4/2022, 11:51:36 PM - INFO - Req from: Guest
+9/4/2022, 11:51:36 PM - INFO - Req from: Guest
+9/5/2022, 9:36:10 AM - INFO - Req from: Guest
+9/5/2022, 9:36:10 AM - INFO - Req from: Guest
+9/5/2022, 9:36:24 AM - INFO - Req from: Guest
+9/5/2022, 9:36:28 AM - INFO - Req from: Guest
+9/5/2022, 9:45:48 AM - INFO - Req from: Guest
+9/5/2022, 9:45:52 AM - INFO - Req from: Guest
+9/5/2022, 9:45:52 AM - INFO - Req from: Guest
+9/5/2022, 9:45:58 AM - INFO - Req from: Guest
+9/5/2022, 9:46:02 AM - INFO - Req from: Guest
+9/5/2022, 9:46:02 AM - INFO - Req from: Guest
+9/5/2022, 9:46:08 AM - INFO - Req from: Guest
+9/5/2022, 9:46:10 AM - INFO - Req from: Guest
+9/5/2022, 9:46:10 AM - INFO - Req from: Guest
+9/5/2022, 9:46:22 AM - INFO - Req from: Guest
+9/5/2022, 9:46:24 AM - INFO - Req from: Guest
+9/5/2022, 9:46:24 AM - INFO - Req from: Guest
+9/5/2022, 9:46:25 AM - INFO - Req from: Guest
+9/5/2022, 9:46:25 AM - INFO - Req from: Guest
+9/5/2022, 9:46:26 AM - INFO - Req from: Guest
+9/5/2022, 9:46:26 AM - INFO - Req from: Guest
+9/5/2022, 9:49:37 AM - INFO - Req from: Guest
+9/5/2022, 9:53:31 AM - INFO - Req from: Guest
+9/5/2022, 9:53:31 AM - INFO - Req from: Guest
+9/5/2022, 9:53:49 AM - INFO - Req from: Guest
+9/5/2022, 9:54:22 AM - INFO - Req from: Guest
+9/5/2022, 9:54:22 AM - INFO - Req from: Guest
+9/5/2022, 9:54:22 AM - INFO - Req from: Guest
+9/5/2022, 9:54:24 AM - INFO - Req from: Guest
+9/5/2022, 9:54:24 AM - INFO - Req from: Guest
+9/5/2022, 9:54:43 AM - INFO - Req from: Guest
+9/5/2022, 9:54:43 AM - INFO - Req from: Guest
+9/5/2022, 9:55:54 AM - INFO - Req from: Guest
+9/5/2022, 9:55:54 AM - INFO - Req from: Guest
+9/5/2022, 9:56:10 AM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 9:56:10 AM - INFO - Req from: Guest
+9/5/2022, 9:56:10 AM - INFO - Req from: Guest
+9/5/2022, 9:56:10 AM - INFO - Req from: Guest
+9/5/2022, 9:56:27 AM - DEBUG - auth.service - login with username: shlomi123
+9/5/2022, 9:56:28 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 9:56:28 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 9:56:28 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 9:58:46 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:01:20 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:01:20 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:01:30 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:03:39 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:03:39 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:04:49 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:04:49 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:04:49 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:04:49 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:04:49 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:04:49 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:05:05 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:05:05 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:05:05 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:05:05 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:05:05 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:05:05 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:05:57 AM - INFO - Server is running on port: 3030
+9/5/2022, 10:06:59 AM - INFO - Server is running on port: 3030
+9/5/2022, 10:07:10 AM - INFO - Server is running on port: 3030
+9/5/2022, 10:07:35 AM - INFO - Server is running on port: 3030
+9/5/2022, 10:08:42 AM - INFO - Server is running on port: 3030
+9/5/2022, 10:09:01 AM - INFO - Server is running on port: 3030
+9/5/2022, 10:20:39 AM - INFO - Server is running on port: 3030
+9/5/2022, 10:23:46 AM - DEBUG - auth.service - login with username: israel123
+9/5/2022, 10:23:48 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:23:48 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:23:48 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:24:51 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:24:51 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:24:52 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:24:52 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:27:20 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:27:20 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:28:34 AM - INFO - Server is running on port: 3030
+9/5/2022, 10:29:36 AM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 10:29:36 AM - INFO - Req from: Guest
+9/5/2022, 10:29:36 AM - INFO - Req from: Guest
+9/5/2022, 10:29:36 AM - INFO - Req from: Guest
+9/5/2022, 10:29:39 AM - INFO - Req from: Guest
+9/5/2022, 10:29:52 AM - DEBUG - auth.service - login with username: israel123
+9/5/2022, 10:29:53 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:29:53 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:29:53 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:32:38 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:32:42 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:32:42 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:32:46 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:32:46 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:32:49 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:32:49 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:36:13 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:36:13 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:37:35 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:37:35 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:37:47 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:37:47 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:37:54 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:38:07 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:38:17 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:38:36 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:38:41 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:38:43 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:38:48 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:38:52 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:38:58 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:38:58 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:39:00 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:39:00 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:39:02 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:39:05 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:39:05 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:39:06 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:39:06 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:39:07 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:39:07 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:39:31 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:36 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:37 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:37 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:37 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:38 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:46 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:46 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:47 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:55 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:55 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:57 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:57 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:59 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:40:59 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:41:00 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:41:01 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:41:13 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:41:13 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:41:58 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:42:01 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:42:01 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:42:01 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:43:20 AM - INFO - Server is running on port: 3030
+9/5/2022, 10:44:11 AM - DEBUG - auth.service - login with username: shlomi123
+9/5/2022, 10:44:11 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:44:11 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:44:11 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:44:18 AM - DEBUG - auth.service - login with username: israel123
+9/5/2022, 10:44:19 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:44:19 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:44:19 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:44:24 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:44:25 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:44:26 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:44:26 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:44:36 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:44:36 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:44:58 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:44:58 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:45:08 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:45:08 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:45:12 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:45:23 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:45:23 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:45:50 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:45:50 AM - INFO - Req from: Israel Israeli
+9/5/2022, 10:45:58 AM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 10:45:58 AM - INFO - Req from: Guest
+9/5/2022, 10:45:58 AM - INFO - Req from: Guest
+9/5/2022, 10:45:59 AM - INFO - Req from: Guest
+9/5/2022, 10:46:40 AM - INFO - Req from: Guest
+9/5/2022, 10:46:44 AM - INFO - Req from: Guest
+9/5/2022, 10:46:46 AM - INFO - Req from: Guest
+9/5/2022, 10:46:48 AM - INFO - Req from: Guest
+9/5/2022, 10:47:01 AM - DEBUG - auth.service - login with username: shlomi123
+9/5/2022, 10:47:02 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:47:02 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:47:02 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:47:04 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:47:06 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:47:07 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:47:12 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:47:17 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:48:43 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:48:43 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:50:32 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:50:32 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:51:07 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:52:53 AM - DEBUG - auth.service - login with username: shlomi123
+9/5/2022, 10:52:54 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:52:54 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:52:54 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:52:59 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:53:08 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:53:09 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:53:22 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:53:22 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:53:25 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:53:25 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:53:26 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:53:26 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:53:44 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:53:44 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:56:08 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:56:08 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:56:11 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:56:15 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:58:21 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:58:21 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:58:26 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:58:37 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:58:37 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:58:44 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:59:25 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:59:25 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:59:25 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 10:59:25 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:06:45 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:06:46 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:06:54 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:06:54 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:06:56 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:07:01 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:07:05 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:07:09 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:07:28 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:07:34 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:07:34 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:14:55 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:14:55 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:14:55 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:14:55 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:14:55 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:14:55 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:18:55 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:19:21 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:19:21 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:25:21 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:25:21 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:25:53 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:25:53 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:26:50 AM - DEBUG - auth.service - login with username: shlomi123
+9/5/2022, 11:26:50 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:26:50 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:26:50 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:27:20 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:27:23 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:27:23 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:27:23 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:27:27 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:27:27 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:27:35 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:27:50 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:27:50 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:31:06 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:31:06 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:31:09 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:31:43 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:31:43 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:32:05 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:33:29 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:33:29 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:36:49 AM - DEBUG - auth.service - login with username: shlomi123
+9/5/2022, 11:36:49 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:36:49 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:36:49 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:37:32 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:37:32 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:37:42 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:37:42 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:41:57 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 11:42:16 AM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:43:19 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:43:52 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:43:52 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:43:52 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:43:52 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:44:03 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:44:23 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:44:24 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:44:36 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:44:36 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:44:39 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:44:39 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:44:46 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:44:46 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:44:47 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:44:48 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:45:08 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:45:08 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:45:12 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:45:14 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:45:14 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:45:15 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:45:15 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:45:29 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:45:29 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:45:37 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:46:19 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:46:19 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:46:21 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:46:30 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:46:30 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:46:30 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:46:30 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:46:34 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:46:34 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:46:37 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:46:37 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:47:20 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:47:32 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:47:32 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:47:37 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:47:37 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:47:40 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 12:47:40 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:43:00 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:43:00 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:43:00 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:43:59 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:43:59 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:44:15 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:44:15 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:44:26 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:44:26 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:45:49 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:45:57 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:45:59 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:45:59 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:13 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:17 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:17 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:21 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:21 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:23 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:23 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:27 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:27 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:28 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:28 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:33 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:33 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:58 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:46:58 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:47:17 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:47:18 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:47:20 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:47:22 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:47:22 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:47:24 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:47:24 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:47:38 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:03 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:03 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:17 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:17 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:19 PM - ERROR - while finding user undefined | {}
+9/5/2022, 1:48:19 PM - ERROR - Failed to get user | {}
+9/5/2022, 1:48:19 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:19 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:25 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:25 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:27 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:27 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:28 PM - ERROR - while finding user undefined | {}
+9/5/2022, 1:48:28 PM - ERROR - Failed to get user | {}
+9/5/2022, 1:48:28 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:28 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:28 PM - ERROR - while finding user undefined | {}
+9/5/2022, 1:48:28 PM - ERROR - Failed to get user | {}
+9/5/2022, 1:48:28 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:48:28 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 1:49:43 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 1:49:44 PM - INFO - Req from: Guest
+9/5/2022, 1:49:44 PM - INFO - Req from: Guest
+9/5/2022, 1:49:44 PM - INFO - Req from: Guest
+9/5/2022, 1:50:00 PM - INFO - Req from: Guest
+9/5/2022, 1:50:12 PM - INFO - Req from: Guest
+9/5/2022, 1:50:13 PM - INFO - Req from: Guest
+9/5/2022, 1:50:17 PM - INFO - Req from: Guest
+9/5/2022, 1:50:17 PM - INFO - Req from: Guest
+9/5/2022, 1:50:18 PM - INFO - Req from: Guest
+9/5/2022, 1:51:32 PM - INFO - Req from: Guest
+9/5/2022, 1:51:32 PM - INFO - Req from: Guest
+9/5/2022, 1:59:49 PM - INFO - Req from: Guest
+9/5/2022, 1:59:49 PM - INFO - Req from: Guest
+9/5/2022, 1:59:52 PM - INFO - Req from: Guest
+9/5/2022, 2:00:05 PM - INFO - Req from: Guest
+9/5/2022, 2:00:05 PM - INFO - Req from: Guest
+9/5/2022, 2:03:03 PM - INFO - Req from: Guest
+9/5/2022, 2:04:55 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 2:04:55 PM - INFO - Req from: Guest
+9/5/2022, 2:04:55 PM - INFO - Req from: Guest
+9/5/2022, 2:04:55 PM - INFO - Req from: Guest
+9/5/2022, 2:05:48 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 2:05:48 PM - INFO - Req from: Guest
+9/5/2022, 2:05:48 PM - INFO - Req from: Guest
+9/5/2022, 2:05:48 PM - INFO - Req from: Guest
+9/5/2022, 2:11:12 PM - INFO - Req from: Guest
+9/5/2022, 2:11:12 PM - INFO - Req from: Guest
+9/5/2022, 2:13:48 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 2:13:48 PM - INFO - Req from: Guest
+9/5/2022, 2:13:48 PM - INFO - Req from: Guest
+9/5/2022, 2:13:48 PM - INFO - Req from: Guest
+9/5/2022, 2:15:38 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 2:15:42 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 2:15:48 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 2:15:51 PM - INFO - Req from: Guest
+9/5/2022, 2:15:51 PM - INFO - Req from: Guest
+9/5/2022, 2:15:51 PM - INFO - Req from: Guest
+9/5/2022, 2:15:55 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 2:15:55 PM - INFO - Req from: Guest
+9/5/2022, 2:15:55 PM - INFO - Req from: Guest
+9/5/2022, 2:15:55 PM - INFO - Req from: Guest
+9/5/2022, 2:16:05 PM - INFO - Req from: Guest
+9/5/2022, 2:16:05 PM - INFO - Req from: Guest
+9/5/2022, 2:16:21 PM - INFO - Req from: Guest
+9/5/2022, 2:16:21 PM - INFO - Req from: Guest
+9/5/2022, 2:16:31 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 2:16:31 PM - INFO - Req from: Guest
+9/5/2022, 2:16:31 PM - INFO - Req from: Guest
+9/5/2022, 2:16:31 PM - INFO - Req from: Guest
+9/5/2022, 2:16:35 PM - INFO - Req from: Guest
+9/5/2022, 2:16:35 PM - INFO - Req from: Guest
+9/5/2022, 2:16:54 PM - INFO - Req from: Guest
+9/5/2022, 2:16:54 PM - INFO - Req from: Guest
+9/5/2022, 2:16:55 PM - INFO - Req from: Guest
+9/5/2022, 2:16:55 PM - INFO - Req from: Guest
+9/5/2022, 2:16:57 PM - INFO - Req from: Guest
+9/5/2022, 2:16:57 PM - INFO - Req from: Guest
+9/5/2022, 2:16:58 PM - INFO - Req from: Guest
+9/5/2022, 2:16:58 PM - INFO - Req from: Guest
+9/5/2022, 2:17:06 PM - INFO - Req from: Guest
+9/5/2022, 2:17:06 PM - INFO - Req from: Guest
+9/5/2022, 2:18:01 PM - INFO - Req from: Guest
+9/5/2022, 2:18:01 PM - INFO - Req from: Guest
+9/5/2022, 2:18:05 PM - INFO - Req from: Guest
+9/5/2022, 2:18:05 PM - INFO - Req from: Guest
+9/5/2022, 2:18:18 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 2:18:25 PM - INFO - Req from: Guest
+9/5/2022, 2:18:27 PM - INFO - Req from: Guest
+9/5/2022, 2:18:29 PM - INFO - Req from: Guest
+9/5/2022, 2:18:29 PM - INFO - Req from: Guest
+9/5/2022, 2:18:29 PM - INFO - Req from: Guest
+9/5/2022, 2:18:30 PM - INFO - Req from: Guest
+9/5/2022, 2:18:30 PM - INFO - Req from: Guest
+9/5/2022, 2:18:30 PM - INFO - Req from: Guest
+9/5/2022, 2:18:31 PM - INFO - Req from: Guest
+9/5/2022, 2:18:46 PM - INFO - Req from: Guest
+9/5/2022, 2:18:46 PM - INFO - Req from: Guest
+9/5/2022, 2:18:48 PM - INFO - Req from: Guest
+9/5/2022, 2:18:48 PM - INFO - Req from: Guest
+9/5/2022, 2:22:42 PM - INFO - Req from: Guest
+9/5/2022, 2:22:42 PM - INFO - Req from: Guest
+9/5/2022, 2:24:06 PM - INFO - Req from: Guest
+9/5/2022, 2:24:06 PM - INFO - Req from: Guest
+9/5/2022, 2:24:25 PM - INFO - Req from: Guest
+9/5/2022, 2:24:25 PM - INFO - Req from: Guest
+9/5/2022, 2:24:27 PM - INFO - Req from: Guest
+9/5/2022, 2:24:27 PM - INFO - Req from: Guest
+9/5/2022, 2:24:45 PM - INFO - Req from: Guest
+9/5/2022, 2:24:45 PM - INFO - Req from: Guest
+9/5/2022, 2:26:01 PM - INFO - Req from: Guest
+9/5/2022, 2:26:01 PM - INFO - Req from: Guest
+9/5/2022, 2:41:48 PM - INFO - Req from: Guest
+9/5/2022, 2:41:48 PM - INFO - Req from: Guest
+9/5/2022, 2:48:27 PM - INFO - Req from: Guest
+9/5/2022, 2:48:27 PM - INFO - Req from: Guest
+9/5/2022, 2:50:25 PM - INFO - Req from: Guest
+9/5/2022, 2:50:25 PM - INFO - Req from: Guest
+9/5/2022, 2:51:23 PM - INFO - Req from: Guest
+9/5/2022, 2:51:23 PM - INFO - Req from: Guest
+9/5/2022, 2:51:23 PM - INFO - Req from: Guest
+9/5/2022, 2:51:23 PM - INFO - Req from: Guest
+9/5/2022, 2:51:23 PM - INFO - Req from: Guest
+9/5/2022, 2:51:23 PM - INFO - Req from: Guest
+9/5/2022, 2:59:38 PM - INFO - Req from: Guest
+9/5/2022, 2:59:39 PM - INFO - Req from: Guest
+9/5/2022, 3:02:40 PM - INFO - Req from: Guest
+9/5/2022, 3:02:40 PM - INFO - Req from: Guest
+9/5/2022, 3:12:19 PM - INFO - Req from: Guest
+9/5/2022, 3:12:19 PM - INFO - Req from: Guest
+9/5/2022, 3:13:06 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 3:13:06 PM - INFO - Req from: Guest
+9/5/2022, 3:13:06 PM - INFO - Req from: Guest
+9/5/2022, 3:13:06 PM - INFO - Req from: Guest
+9/5/2022, 3:13:08 PM - INFO - Req from: Guest
+9/5/2022, 3:13:08 PM - INFO - Req from: Guest
+9/5/2022, 3:13:12 PM - INFO - Req from: Guest
+9/5/2022, 3:13:12 PM - INFO - Req from: Guest
+9/5/2022, 3:32:55 PM - INFO - Req from: Guest
+9/5/2022, 3:32:55 PM - INFO - Req from: Guest
+9/5/2022, 3:32:58 PM - INFO - Req from: Guest
+9/5/2022, 3:32:58 PM - INFO - Req from: Guest
+9/5/2022, 3:33:42 PM - INFO - Req from: Guest
+9/5/2022, 3:33:42 PM - INFO - Req from: Guest
+9/5/2022, 3:33:42 PM - INFO - Req from: Guest
+9/5/2022, 3:33:48 PM - INFO - Req from: Guest
+9/5/2022, 3:33:48 PM - INFO - Req from: Guest
+9/5/2022, 3:34:30 PM - INFO - Req from: Guest
+9/5/2022, 3:34:30 PM - INFO - Req from: Guest
+9/5/2022, 3:34:57 PM - INFO - Req from: Guest
+9/5/2022, 3:35:00 PM - INFO - Req from: Guest
+9/5/2022, 3:35:00 PM - INFO - Req from: Guest
+9/5/2022, 3:35:01 PM - INFO - Req from: Guest
+9/5/2022, 3:35:01 PM - INFO - Req from: Guest
+9/5/2022, 3:35:03 PM - INFO - Req from: Guest
+9/5/2022, 3:35:03 PM - INFO - Req from: Guest
+9/5/2022, 3:35:14 PM - DEBUG - auth.service - login with username: shlomi123
+9/5/2022, 3:35:14 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:35:14 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:35:14 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:45:05 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:45:05 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:49:59 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:02 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:02 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:04 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:06 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:06 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:06 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:08 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:12 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:12 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:12 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:12 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:19 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:50:19 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:53:21 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:53:22 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:53:22 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:53:23 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:53:23 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:53:28 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:53:56 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:53:56 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:55:43 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 3:55:43 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:00:32 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:00:32 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:00:32 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:01:48 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:01:48 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:01:49 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:01:50 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:01:50 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:01:54 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:01:54 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:01:56 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:01:56 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:02:56 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:02:56 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:13:19 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:13:19 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:14:08 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 4:14:08 PM - INFO - Req from: Guest
+9/5/2022, 4:14:08 PM - INFO - Req from: Guest
+9/5/2022, 4:14:08 PM - INFO - Req from: Guest
+9/5/2022, 4:15:58 PM - INFO - Req from: Guest
+9/5/2022, 4:16:21 PM - INFO - Req from: Guest
+9/5/2022, 4:18:40 PM - INFO - Req from: Guest
+9/5/2022, 4:18:40 PM - INFO - Req from: Guest
+9/5/2022, 4:19:16 PM - INFO - Req from: Guest
+9/5/2022, 4:19:16 PM - INFO - Req from: Guest
+9/5/2022, 4:19:34 PM - DEBUG - auth.service - login with username: shlomi123
+9/5/2022, 4:19:34 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:19:34 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:19:34 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:22:46 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:22:46 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:22:48 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:23:33 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:23:33 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:24:54 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:24:54 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:27:05 PM - DEBUG - auth.service - login with username: israel123
+9/5/2022, 4:27:05 PM - ERROR - Failed to Login Invalid username or password
+9/5/2022, 4:27:34 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 4:27:34 PM - INFO - Req from: Guest
+9/5/2022, 4:27:34 PM - INFO - Req from: Guest
+9/5/2022, 4:27:34 PM - INFO - Req from: Guest
+9/5/2022, 4:28:47 PM - DEBUG - auth.service - login with username: shlomi123
+9/5/2022, 4:28:47 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:28:47 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:28:47 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:30:20 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:30:20 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:31:11 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:31:11 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:31:16 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:31:47 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:33:40 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:33:40 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:33:42 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:33:51 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:34:38 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:34:38 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:34:40 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:34:54 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:34:54 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:35:44 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:35:44 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:43:57 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 4:43:58 PM - INFO - Req from: Guest
+9/5/2022, 4:43:58 PM - INFO - Req from: Guest
+9/5/2022, 4:43:58 PM - INFO - Req from: Guest
+9/5/2022, 4:44:05 PM - INFO - Req from: Guest
+9/5/2022, 4:44:26 PM - INFO - Req from: Guest
+9/5/2022, 4:44:27 PM - INFO - Req from: Guest
+9/5/2022, 4:44:28 PM - INFO - Req from: Guest
+9/5/2022, 4:44:29 PM - INFO - Req from: Guest
+9/5/2022, 4:44:30 PM - INFO - Req from: Guest
+9/5/2022, 4:44:30 PM - INFO - Req from: Guest
+9/5/2022, 4:44:41 PM - DEBUG - auth.service - login with username: shlomi123
+9/5/2022, 4:44:42 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:44:42 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:44:42 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:44:48 PM - DEBUG - auth.service - login with username: guest123
+9/5/2022, 4:44:48 PM - INFO - Req from: Guest
+9/5/2022, 4:44:48 PM - INFO - Req from: Guest
+9/5/2022, 4:44:48 PM - INFO - Req from: Guest
+9/5/2022, 4:45:43 PM - DEBUG - auth.service - login with username: shlomi123
+9/5/2022, 4:45:43 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:45:43 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:45:43 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:45:54 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:45:58 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:05 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:05 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:07 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:07 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:28 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:28 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:36 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:38 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:38 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:39 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:40 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:40 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:41 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:50 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:50 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:50 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:50 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:52 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:46:52 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:47:07 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:47:10 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:48:18 PM - DEBUG - auth.service - login with username: shlomi123
+9/5/2022, 4:48:18 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:48:18 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:48:18 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:52:25 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:52:29 PM - INFO - Req from: Shlomi Nugarker
+9/5/2022, 4:53:09 PM - INFO - Server is running on port: 3030
