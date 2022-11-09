@@ -2,4 +2,4 @@
 
 Front - https://github.com/shlomiNugarker/Social-Network-Front-
 
-https://travelsdin.herokuapp.com/#/
+https://travelsdin.onrender.com/#/
