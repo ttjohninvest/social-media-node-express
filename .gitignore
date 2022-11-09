@@ -1,5 +1,6 @@
 
 config
 
-logs/backend_log
+logs/backend.log
 node_modules
+
