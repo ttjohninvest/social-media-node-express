@@ -54,21 +54,13 @@ app.use('/api/activity', activityRoutes)
 
 connectSockets(http, session)
 
-console.log(
-  'process.env.REACT_APP_GOOGLE_MAP_KEY:',
-  process.env.REACT_APP_GOOGLE_MAP_KEY
-)
-
 // Make every server-side-route to match the index.html
 // so when requesting http://localhost:3030/index.html/car/123 it will still respond with
 // our SPA (single page app) (the index.html file) and allow vue-router to take it from there
 
 app.get('/**', (req, res) => {
-  res.sendFile(path.join(__dirname, './public', 'index.html'))
+  res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
-// app.get('*', (req, res) => {
-//   res.sendFile(path.join(__dirname, './build', 'index.html'))
-// })
 
 const PORT = process.env.PORT || 3030
 http.listen(PORT, () => {
