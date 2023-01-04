@@ -15,11 +15,8 @@ module.exports = {
 async function query(filterBy) {
   try {
     const criteria = _buildCriteria(filterBy)
-    // const criteria = {}
 
     const collection = await dbService.getCollection('post')
-
-    // console.log({ filterBy })
 
     let limit = 5
     let endIndex = 0

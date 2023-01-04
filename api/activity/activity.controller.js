@@ -22,7 +22,6 @@ async function getActivties(req, res) {
 // CREATE
 async function addActivity(req, res) {
   try {
-    // console.log(' req.body:', req.body)
     const activity = req.body
     const addedActivity = await activityService.add(activity)
     res.json(addedActivity)

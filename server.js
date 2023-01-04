@@ -68,5 +68,3 @@ const PORT = process.env.PORT || 3030
 http.listen(PORT, () => {
   logger.info(`Server is running on port: ${PORT}`)
 })
-
-console.log('/env:', process.env.DB_SOCIAL_NETWWORK)

@@ -14,7 +14,6 @@ module.exports = {
 async function query(filterBy) {
   try {
     // const criteria = _buildCriteria(filterBy)
-    // console.log(filterBy)
     const criteria = {
       $or: [{ userId: filterBy.userId }, { userId2: filterBy.userId }],
     }

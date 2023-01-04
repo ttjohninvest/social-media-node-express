@@ -28,7 +28,6 @@ async function query(filterBy) {
 
 async function add(activity) {
   try {
-    // console.log(activity)
     const activityToAdd = {
       ...activity,
       createdAt: new Date().getTime(),
