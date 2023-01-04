@@ -7,6 +7,8 @@ const logger = require('./services/logger.service')
 const app = express()
 const http = require('http').createServer(app)
 
+require('dotenv').config()
+
 const session = expressSession({
   secret: 'secret session',
   resave: false,
@@ -66,3 +68,5 @@ const PORT = process.env.PORT || 3030
 http.listen(PORT, () => {
   logger.info(`Server is running on port: ${PORT}`)
 })
+
+console.log('/env:', process.env.DB_SOCIAL_NETWWORK)

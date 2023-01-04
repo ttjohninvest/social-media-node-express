@@ -2,8 +2,8 @@
 // if - we are in production - return the prod set of keys
 // else - we are in development - return the dev keys
 
-let config =
-  process.env.NODE_ENV === 'production' ? require('./prod') : require('./dev')
-// let config = process.env.NODE_ENV === 'production' ? require('./prod') : require('./prod')
+let config = require('./prod')
+// let config =
+//   process.env.NODE_ENV === 'production' ? require('./prod') : require('./dev')
 
 module.exports = config
