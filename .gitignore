@@ -3,5 +3,5 @@ config
 
 logs/backend.log
 node_modules
-
+logs
 .env

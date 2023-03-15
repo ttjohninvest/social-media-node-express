@@ -14,38 +14,44 @@ module.exports = {
 
 async function query(filterBy) {
   try {
-    const criteria = _buildCriteria(filterBy)
-
     const collection = await dbService.getCollection('post')
 
-    let limit = 5
-    let endIndex = 0
     let sort = {
       createdAt: -1,
     }
 
-    if (filterBy.page) {
-      const page = filterBy.page
-      endIndex = page * limit
-    }
+    if (!Object.keys(filterBy).length) {
+      var posts = await collection.find({}).sort(sort).toArray()
+      return posts
+    } else {
+      const criteria = _buildCriteria(filterBy)
 
-    if (filterBy.sort) {
-      sort.createdAt = filterBy.sort
-    }
+      let limit = 5
+      let endIndex = 0
 
-    if (filterBy.position) {
-      // load all posts with position
-      limit = Infinity
-      endIndex = 0
-    }
+      if (filterBy.page) {
+        const page = filterBy.page
+        endIndex = page * limit
+      }
 
-    var posts = await collection
-      .find(criteria)
-      .sort(sort)
-      .limit(limit)
-      .skip(endIndex)
-      .toArray()
-    return posts
+      if (filterBy.sort) {
+        sort.createdAt = filterBy.sort
+      }
+
+      if (filterBy.position) {
+        // load all posts with position
+        limit = Infinity
+        endIndex = 0
+      }
+
+      var posts = await collection
+        .find(criteria)
+        .sort(sort)
+        .limit(limit)
+        .skip(endIndex)
+        .toArray()
+      return posts
+    }
   } catch (err) {
     logger.error('cannot find posts', err)
     throw err
