@@ -450,3 +450,20 @@
 3/15/2023, 1:15:34 PM - INFO - Req from: Guest
 3/15/2023, 1:15:34 PM - ERROR - while finding user null | {}
 3/15/2023, 1:15:34 PM - ERROR - Failed to get user | {}
+5/8/2023, 11:06:59 AM - INFO - Server is running on port: 3030
+5/8/2023, 11:22:46 AM - DEBUG - auth.service - login with username: guest123
+5/8/2023, 11:22:48 AM - INFO - Req from: Guest
+5/8/2023, 11:22:48 AM - INFO - Req from: Guest
+5/8/2023, 11:22:48 AM - INFO - Req from: Guest
+5/8/2023, 11:22:48 AM - INFO - Req from: Guest
+5/8/2023, 11:22:48 AM - ERROR - while finding user null | {}
+5/8/2023, 11:22:48 AM - ERROR - Failed to get user | {}
+5/8/2023, 11:22:50 AM - INFO - Req from: Guest
+5/8/2023, 11:23:13 AM - INFO - Req from: Guest
+5/8/2023, 11:23:13 AM - INFO - Req from: Guest
+5/8/2023, 11:23:13 AM - ERROR - while finding user null | {}
+5/8/2023, 11:23:13 AM - ERROR - Failed to get user | {}
+5/8/2023, 11:27:43 AM - INFO - Req from: Guest
+5/8/2023, 11:27:43 AM - INFO - Req from: Guest
+5/8/2023, 11:27:43 AM - ERROR - while finding user null | {}
+5/8/2023, 11:27:43 AM - ERROR - Failed to get user | {}
