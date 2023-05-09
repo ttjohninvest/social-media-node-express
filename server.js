@@ -15,7 +15,7 @@ const session = expressSession({
   saveUninitialized: true,
   cookie: { secure: false },
 })
-console.log()
+
 app.use(session)
 app.use(express.json())
 app.use(express.static('public'))
@@ -55,7 +55,7 @@ const { connectSockets } = require('./services/socket.service')
 
 // routes
 const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
-const { log } = require('console')
+
 app.all('*', setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
