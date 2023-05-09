@@ -26,7 +26,7 @@ if (process.env.NODE_ENV === 'production') {
 
   const corsOptions = {
     // Make sure origin contains the url your frontend is running on
-    origin: ['https://travelsdin-react.vercel.app/'],
+    origin: ['https://travelsdin-react.vercel.app'],
     credentials: true,
   }
   app.use(cors(corsOptions))
@@ -38,7 +38,7 @@ if (process.env.NODE_ENV === 'production') {
       'http://127.0.0.1:3000',
       'http://localhost:3000',
       'http://localhost:19006',
-      'https://travelsdin-react.vercel.app/',
+      'https://travelsdin-react.vercel.app',
     ],
     credentials: true,
   }
