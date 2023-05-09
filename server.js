@@ -23,6 +23,13 @@ app.use(express.static('public'))
 if (process.env.NODE_ENV === 'production') {
   // Express serve static files on production environment
   app.use(express.static(path.resolve(__dirname, 'public')))
+
+  const corsOptions = {
+    // Make sure origin contains the url your frontend is running on
+    origin: ['https://travelsdin-react.vercel.app/'],
+    credentials: true,
+  }
+  app.use(cors(corsOptions))
 } else {
   // Configuring CORS
   const corsOptions = {
@@ -31,6 +38,7 @@ if (process.env.NODE_ENV === 'production') {
       'http://127.0.0.1:3000',
       'http://localhost:3000',
       'http://localhost:19006',
+      'https://travelsdin-react.vercel.app/',
     ],
     credentials: true,
   }
