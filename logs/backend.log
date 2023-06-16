@@ -1,0 +1,121 @@
+6/16/2023, 6:02:01 PM - INFO - Server is running on port: 3030
+6/16/2023, 6:07:52 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 6:07:54 PM - INFO - Req from: Guest
+6/16/2023, 6:07:54 PM - INFO - Req from: Guest
+6/16/2023, 6:07:54 PM - INFO - Req from: Guest
+6/16/2023, 6:07:54 PM - INFO - Req from: Guest
+6/16/2023, 6:07:56 PM - INFO - Req from: Guest
+6/16/2023, 6:26:05 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 6:26:05 PM - INFO - Req from: Guest
+6/16/2023, 6:26:05 PM - INFO - Req from: Guest
+6/16/2023, 6:26:05 PM - INFO - Req from: Guest
+6/16/2023, 6:26:05 PM - INFO - Req from: Guest
+6/16/2023, 6:26:05 PM - INFO - Req from: Guest
+6/16/2023, 6:28:46 PM - INFO - Req from: Guest
+6/16/2023, 6:28:46 PM - INFO - Req from: Guest
+6/16/2023, 6:28:46 PM - INFO - Req from: Guest
+6/16/2023, 6:28:46 PM - INFO - Req from: Guest
+6/16/2023, 6:28:46 PM - INFO - Req from: Guest
+6/16/2023, 6:34:43 PM - INFO - Req from: Guest
+6/16/2023, 6:34:43 PM - INFO - Req from: Guest
+6/16/2023, 6:34:43 PM - INFO - Req from: Guest
+6/16/2023, 6:34:43 PM - INFO - Req from: Guest
+6/16/2023, 6:34:43 PM - INFO - Req from: Guest
+6/16/2023, 6:43:35 PM - DEBUG - auth.service - login with username: shlomin
+6/16/2023, 6:43:35 PM - ERROR - Failed to Login Invalid username or password
+6/16/2023, 6:43:39 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 6:43:40 PM - INFO - Req from: Guest
+6/16/2023, 6:43:40 PM - INFO - Req from: Guest
+6/16/2023, 6:43:40 PM - INFO - Req from: Guest
+6/16/2023, 6:43:40 PM - INFO - Req from: Guest
+6/16/2023, 6:43:40 PM - INFO - Req from: Guest
+6/16/2023, 6:44:08 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 6:44:08 PM - INFO - Req from: Guest
+6/16/2023, 6:44:08 PM - INFO - Req from: Guest
+6/16/2023, 6:44:08 PM - INFO - Req from: Guest
+6/16/2023, 6:44:08 PM - INFO - Req from: Guest
+6/16/2023, 6:44:09 PM - INFO - Req from: Guest
+6/16/2023, 6:44:20 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 6:44:20 PM - INFO - Req from: Guest
+6/16/2023, 6:44:20 PM - INFO - Req from: Guest
+6/16/2023, 6:44:20 PM - INFO - Req from: Guest
+6/16/2023, 6:44:20 PM - INFO - Req from: Guest
+6/16/2023, 6:44:20 PM - INFO - Req from: Guest
+6/16/2023, 6:51:56 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 6:51:56 PM - INFO - Req from: Guest
+6/16/2023, 6:51:56 PM - INFO - Req from: Guest
+6/16/2023, 6:51:56 PM - INFO - Req from: Guest
+6/16/2023, 6:51:57 PM - INFO - Req from: Guest
+6/16/2023, 6:51:57 PM - INFO - Req from: Guest
+6/16/2023, 6:52:03 PM - INFO - Req from: Guest
+6/16/2023, 6:52:03 PM - INFO - Req from: Guest
+6/16/2023, 6:52:17 PM - INFO - Req from: Guest
+6/16/2023, 6:52:17 PM - INFO - Req from: Guest
+6/16/2023, 6:52:53 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 6:52:53 PM - INFO - Req from: Guest
+6/16/2023, 6:52:53 PM - INFO - Req from: Guest
+6/16/2023, 6:52:53 PM - INFO - Req from: Guest
+6/16/2023, 6:52:54 PM - INFO - Req from: Guest
+6/16/2023, 6:52:54 PM - INFO - Req from: Guest
+6/16/2023, 7:03:32 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 7:03:32 PM - INFO - Req from: Guest
+6/16/2023, 7:03:32 PM - INFO - Req from: Guest
+6/16/2023, 7:03:32 PM - INFO - Req from: Guest
+6/16/2023, 7:03:33 PM - INFO - Req from: Guest
+6/16/2023, 7:03:33 PM - INFO - Req from: Guest
+6/16/2023, 7:03:53 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 7:03:54 PM - INFO - Req from: Guest
+6/16/2023, 7:03:54 PM - INFO - Req from: Guest
+6/16/2023, 7:03:54 PM - INFO - Req from: Guest
+6/16/2023, 7:03:54 PM - INFO - Req from: Guest
+6/16/2023, 7:03:54 PM - INFO - Req from: Guest
+6/16/2023, 7:04:56 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 7:04:56 PM - INFO - Req from: Guest
+6/16/2023, 7:04:56 PM - INFO - Req from: Guest
+6/16/2023, 7:04:56 PM - INFO - Req from: Guest
+6/16/2023, 7:04:56 PM - INFO - Req from: Guest
+6/16/2023, 7:04:57 PM - INFO - Req from: Guest
+6/16/2023, 7:10:43 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 7:10:44 PM - INFO - Req from: Guest
+6/16/2023, 7:10:44 PM - INFO - Req from: Guest
+6/16/2023, 7:10:44 PM - INFO - Req from: Guest
+6/16/2023, 7:10:44 PM - INFO - Req from: Guest
+6/16/2023, 7:10:44 PM - INFO - Req from: Guest
+6/16/2023, 7:14:56 PM - INFO - Req from: Guest
+6/16/2023, 7:14:56 PM - INFO - Req from: Guest
+6/16/2023, 7:15:00 PM - INFO - Req from: Guest
+6/16/2023, 7:15:00 PM - INFO - Req from: Guest
+6/16/2023, 7:15:22 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 7:15:22 PM - INFO - Req from: Guest
+6/16/2023, 7:15:22 PM - INFO - Req from: Guest
+6/16/2023, 7:15:22 PM - INFO - Req from: Guest
+6/16/2023, 7:15:23 PM - INFO - Req from: Guest
+6/16/2023, 7:15:24 PM - INFO - Req from: Guest
+6/16/2023, 7:15:39 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 7:15:40 PM - INFO - Req from: Guest
+6/16/2023, 7:15:40 PM - INFO - Req from: Guest
+6/16/2023, 7:15:40 PM - INFO - Req from: Guest
+6/16/2023, 7:15:40 PM - INFO - Req from: Guest
+6/16/2023, 7:15:40 PM - INFO - Req from: Guest
+6/16/2023, 7:17:29 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 7:17:29 PM - INFO - Req from: Guest
+6/16/2023, 7:17:29 PM - INFO - Req from: Guest
+6/16/2023, 7:17:29 PM - INFO - Req from: Guest
+6/16/2023, 7:17:29 PM - INFO - Req from: Guest
+6/16/2023, 7:17:30 PM - INFO - Req from: Guest
+6/16/2023, 7:18:45 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 7:18:45 PM - INFO - Req from: Guest
+6/16/2023, 7:18:45 PM - INFO - Req from: Guest
+6/16/2023, 7:18:45 PM - INFO - Req from: Guest
+6/16/2023, 7:18:46 PM - INFO - Req from: Guest
+6/16/2023, 7:18:46 PM - INFO - Req from: Guest
+6/16/2023, 7:19:13 PM - DEBUG - auth.service - login with username: guest123
+6/16/2023, 7:19:13 PM - INFO - Req from: Guest
+6/16/2023, 7:19:13 PM - INFO - Req from: Guest
+6/16/2023, 7:19:13 PM - INFO - Req from: Guest
+6/16/2023, 7:19:13 PM - INFO - Req from: Guest
+6/16/2023, 7:19:13 PM - INFO - Req from: Guest
+6/16/2023, 7:19:16 PM - INFO - Req from: Guest
+6/16/2023, 7:19:16 PM - INFO - Req from: Guest
+6/16/2023, 7:19:20 PM - INFO - Req from: Guest
+6/16/2023, 7:19:20 PM - INFO - Req from: Guest
