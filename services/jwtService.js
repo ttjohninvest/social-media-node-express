@@ -1,6 +1,3 @@
-import { IUser } from '../interfaces/IUser'
-import { NextFunction, Request, RequestHandler, Response } from 'express'
-
 import { sign, verify } from 'jsonwebtoken'
 
 const createTokens = (user) => {
