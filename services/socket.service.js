@@ -39,7 +39,6 @@ function connectSockets(http, session) {
     socket.on("chat-updated", async (chat) => {
       const userSocket = await _getUserSocket(chat.userId);
       const userSocket2 = await _getUserSocket(chat.userId2);
-      console.log({ userSocket2, userSocket });
       if (userSocket) {
         userSocket.emit("update-chat", chat);
       }
@@ -79,7 +78,6 @@ async function emitToUser({ type, data, userId }) {
 }
 
 async function broadcast({ type, data, room = null, userId }) {
-  console.log("BROADCASTING", JSON.stringify(arguments));
   const excludedSocket = await _getUserSocket(userId);
   if (!excludedSocket) {
     return;
