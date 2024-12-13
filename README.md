@@ -66,7 +66,7 @@ This project is a social media backend built using Node.js and Express. It inclu
 - Create a `.env` file in the root directory and provide the following environment variables:
 
   ```env
-  DB_SOCIAL_NETWWORK=your_mongodb_uri_here
+  DB_URI=your_mongodb_uri_here
   REACT_APP_GOOGLE_MAP_KEY=
   TOKEN_SECRET=your_jwt_secret
   ```
