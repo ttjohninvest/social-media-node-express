@@ -7,9 +7,7 @@ module.exports = { query, add, update, getLength };
 
 async function query(filterBy) {
   try {
-    // console.log(filterBy)
     const criteria = _buildCriteria(filterBy);
-    // const criteria = {}
 
     const collection = await dbService.getCollection("activity");
 
@@ -58,7 +56,6 @@ async function update(activity) {
 
 async function getLength(filterBy) {
   try {
-    // const criteria = _buildCriteria(filterBy)
     const criteria = {};
 
     const collection = await dbService.getCollection("activity");
@@ -94,7 +91,6 @@ function _buildCriteria(filterBy) {
     criteria._id = ObjectId(filterBy._id);
   }
 
-  // filter by position - if exists
   if (filterBy.position) {
     criteria.$and = [
       { "position.lat": { $exists: true } },

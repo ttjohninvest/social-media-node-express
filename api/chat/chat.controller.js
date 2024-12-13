@@ -6,7 +6,6 @@ module.exports = {
   getChatById,
   addChat,
   updateChat,
-  // removeChat,
 }
 
 // LIST
