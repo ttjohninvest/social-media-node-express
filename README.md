@@ -1,3 +1,5 @@
+# Social Media Node.js & Express API Project
+
 ## Table of Contents
 
 - [README](README.md)
@@ -5,13 +7,15 @@
 - [Post Collection Schema](POST.md)
 - [Chat Collection Schema](CHAT.md)
 - [User Collection Schema](USER.md)
-- [Activity Collection Schema](ACTIVITY.md)
+- [Activity Collection Schema](ACTIVTY.md)
 
-# Social Media Node.js & Express API Project
+---
 
 ## Overview
 
 This project is a social media backend built using Node.js and Express. It includes RESTful APIs for user management, posts, comments, and more. The project is designed to support a dynamic social media application with essential backend features such as user authentication, media uploads, and role-based access.
+
+---
 
 ## Features
 
@@ -20,6 +24,20 @@ This project is a social media backend built using Node.js and Express. It inclu
 - **Middleware**: Custom middleware for authentication, error handling, and request logging.
 - **Logging**: Logs are maintained for server activities.
 - **API Documentation**: Well-documented API endpoints for easy integration.
+
+---
+
+## Documentation
+
+The following Markdown files provide detailed information about specific components of the project:
+
+- [ACTIVTY](ACTIVTY.md)
+- [CHAT](CHAT.md)
+- [DATABASE](DATABASE.md)
+- [POST](POST.md)
+- [USER](USER.md)
+
+---
 
 ## Project Structure
 
@@ -32,16 +50,16 @@ This project is a social media backend built using Node.js and Express. It inclu
 - `public/` - Static assets.
 - `server.js` - The main server file to start the Express app.
 
-## Installation
+---
+
+## Getting Started
 
 1. Clone the repository:
-
    ```sh
    git clone https://github.com/shlomiNugarker/social-media-node-express.git
    ```
 
 2. Navigate to the project directory:
-
    ```sh
    cd social-media-node-express-main
    ```
@@ -51,6 +69,8 @@ This project is a social media backend built using Node.js and Express. It inclu
    npm install
    ```
 
+---
+
 ## Configuration
 
 - Create a `.env` file in the root directory and provide the following environment variables:
@@ -59,8 +79,9 @@ This project is a social media backend built using Node.js and Express. It inclu
   DB_SOCIAL_NETWWORK=your_mongodb_uri_here
   REACT_APP_GOOGLE_MAP_KEY=
   TOKEN_SECRET=your_jwt_secret
-
   ```
+
+---
 
 ## Running the Server
 
@@ -76,26 +97,64 @@ To start the server in production mode:
 npm start
 ```
 
+---
+
 ## API Endpoints
 
-The following are the primary API endpoints:
+### Activity Routes
+- **GET /** - Fetch all activities
+- **POST /** - Add a new activity
+- **PUT /:id** - Update an activity by ID
+- **GET /length** - Get the number of activities
 
-- **User Routes**:
+### Auth Routes
+- **POST /login** - User login
+- **POST /signup** - User signup
+- **POST /logout** - User logout
 
-  - `POST /api/users/register` - Register a new user
-  - `POST /api/users/login` - Authenticate a user
-  - `GET /api/users/profile` - Get the authenticated user's profile
+### Chat Routes
+- **GET /** - Fetch all chats
+- **GET /:id** - Fetch a chat by ID
+- **POST /** - Create a new chat
+- **PUT /:id** - Update a chat by ID
+- **DELETE /:id** - Delete a chat by ID
 
-- **Post Routes**:
-  - `GET /api/posts` - Fetch all posts
-  - `POST /api/posts` - Create a new post
-  - `PUT /api/posts/:id` - Update a post
-  - `DELETE /api/posts/:id` - Delete a post
+### Comment Routes
+- **GET /** - Fetch all comments
+- **GET /:id** - Fetch a comment by ID
+- **POST /** - Add a new comment
+- **PUT /:id** - Update a comment by ID
+- **DELETE /:id** - Delete a comment by ID
+
+### Post Routes
+- **GET /** - Fetch all posts
+- **GET /length** - Fetch the number of posts
+- **GET /:id** - Fetch a post by ID
+- **POST /** - Create a new post
+- **PUT /:id** - Update a post by ID
+- **DELETE /:id** - Delete a post by ID
+
+### User Routes
+- **GET /** - Fetch all users
+- **GET /:id** - Fetch a user by ID
+- **POST /** - Add a new user
+- **PUT /:id** - Update a user by ID
+- **DELETE /:id** - Delete a user by ID
+
+---
 
 ## Frontend
 
 The frontend for this project can be found at [Chess v2 React Frontend](https://github.com/shlomiNugarker/chess-v2-react).
 
-## Contributing
+---
+
+## Contributions
 
 Feel free to submit pull requests for new features, bug fixes, or improvements. Please ensure all tests pass before submitting.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
