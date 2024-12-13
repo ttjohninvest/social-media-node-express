@@ -42,6 +42,7 @@ async function connect() {
 
 const collectionsToEnsure = ["user", "post", "activity", "chat"];
 (async () => {
+  await ensureDatabaseExists();
   await ensureCollectionsExist();
 })();
 async function ensureCollectionsExist(collections = collectionsToEnsure) {
@@ -68,5 +69,29 @@ async function ensureCollectionsExist(collections = collectionsToEnsure) {
     }
   } catch (err) {
     console.error("Error:", err);
+  }
+}
+
+async function ensureDatabaseExists(dbName = "social_network_db") {
+  try {
+    const client = await MongoClient.connect(config.dbURL, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+
+    const adminDb = client.db().admin();
+    const databases = await adminDb.listDatabases();
+
+    const dbExists = databases.databases.some((db) => db.name === dbName);
+
+    if (dbExists) {
+      console.log(`Database "${dbName}" already exists.`);
+    } else {
+      console.log(`Database "${dbName}" does not exist. Creating it now...`);
+      await client?.db(dbName).collection("temp").insertOne({ temp: true });
+      console.log(`Database "${dbName}" created.`);
+    }
+  } catch (err) {
+    console.error("Error ensuring database exists:", err);
   }
 }
