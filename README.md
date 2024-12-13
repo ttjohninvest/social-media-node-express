@@ -27,18 +27,6 @@ This project is a social media backend built using Node.js and Express. It inclu
 
 ---
 
-## Documentation
-
-The following Markdown files provide detailed information about specific components of the project:
-
-- [ACTIVTY](ACTIVTY.md)
-- [CHAT](CHAT.md)
-- [DATABASE](DATABASE.md)
-- [POST](POST.md)
-- [USER](USER.md)
-
----
-
 ## Project Structure
 
 - `api/` - Contains route definitions for users, posts, and other features.
@@ -55,11 +43,13 @@ The following Markdown files provide detailed information about specific compone
 ## Getting Started
 
 1. Clone the repository:
+
    ```sh
    git clone https://github.com/shlomiNugarker/social-media-node-express.git
    ```
 
 2. Navigate to the project directory:
+
    ```sh
    cd social-media-node-express-main
    ```
@@ -102,17 +92,20 @@ npm start
 ## API Endpoints
 
 ### Activity Routes
+
 - **GET /** - Fetch all activities
 - **POST /** - Add a new activity
 - **PUT /:id** - Update an activity by ID
 - **GET /length** - Get the number of activities
 
 ### Auth Routes
+
 - **POST /login** - User login
 - **POST /signup** - User signup
 - **POST /logout** - User logout
 
 ### Chat Routes
+
 - **GET /** - Fetch all chats
 - **GET /:id** - Fetch a chat by ID
 - **POST /** - Create a new chat
@@ -120,6 +113,7 @@ npm start
 - **DELETE /:id** - Delete a chat by ID
 
 ### Comment Routes
+
 - **GET /** - Fetch all comments
 - **GET /:id** - Fetch a comment by ID
 - **POST /** - Add a new comment
@@ -127,6 +121,7 @@ npm start
 - **DELETE /:id** - Delete a comment by ID
 
 ### Post Routes
+
 - **GET /** - Fetch all posts
 - **GET /length** - Fetch the number of posts
 - **GET /:id** - Fetch a post by ID
@@ -135,6 +130,7 @@ npm start
 - **DELETE /:id** - Delete a post by ID
 
 ### User Routes
+
 - **GET /** - Fetch all users
 - **GET /:id** - Fetch a user by ID
 - **POST /** - Add a new user
