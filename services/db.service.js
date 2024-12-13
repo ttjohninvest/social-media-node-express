@@ -42,6 +42,7 @@ async function connect() {
 }
 
 const collectionsToEnsure = ["user", "post", "activity", "chat"];
+// eslint-disable-next-line no-undef
 (async () => {
   await ensureDatabaseExists();
   await ensureCollectionsExist();

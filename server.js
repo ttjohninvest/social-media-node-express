@@ -56,6 +56,8 @@ app.use("/api/activity", activityRoutes);
 
 connectSockets(http, session);
 
+module.exports = app; // for testing
+
 app.get("/**", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
