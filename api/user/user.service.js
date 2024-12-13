@@ -1,6 +1,6 @@
-const dbService = require('../../services/db.service')
-const logger = require('../../services/logger.service')
-const ObjectId = require('mongodb').ObjectId
+const dbService = require("../../services/db.service");
+const logger = require("../../services/logger.service");
+const ObjectId = require("mongodb").ObjectId;
 
 module.exports = {
   query,
@@ -9,56 +9,56 @@ module.exports = {
   remove,
   update,
   add,
-}
+};
 
 async function query(filterBy = {}) {
   try {
-    const criteria = _buildCriteria(filterBy)
+    const criteria = _buildCriteria(filterBy);
     // const criteria = {}
 
-    const collection = await dbService.getCollection('user')
-    var users = await collection.find(criteria).toArray()
+    const collection = await dbService.getCollection("user");
+    var users = await collection.find(criteria).toArray();
 
     users = users.map((user) => {
-      delete user.password
-      return user
-    })
-    return users
+      delete user.password;
+      return user;
+    });
+    return users;
   } catch (err) {
-    logger.error('cannot find users', err)
-    throw err
+    logger.error("cannot find users", err);
+    throw err;
   }
 }
 
 async function getById(userId) {
   try {
-    const collection = await dbService.getCollection('user')
-    const user = await collection.findOne({ _id: ObjectId(userId) })
-    delete user.password
-    return user
+    const collection = await dbService.getCollection("user");
+    const user = await collection.findOne({ _id: ObjectId(userId) });
+    delete user.password;
+    return user;
   } catch (err) {
-    logger.error(`while finding user ${userId}`, err)
-    throw err
+    logger.error(`while finding user ${userId}`, err);
+    throw err;
   }
 }
 async function getByUsername(username) {
   try {
-    const collection = await dbService.getCollection('user')
-    const user = await collection.findOne({ username })
-    return user
+    const collection = await dbService.getCollection("user");
+    const user = await collection.findOne({ username });
+    return user;
   } catch (err) {
-    logger.error(`while finding user ${username}`, err)
-    throw err
+    logger.error(`while finding user ${username}`, err);
+    throw err;
   }
 }
 
 async function remove(userId) {
   try {
-    const collection = await dbService.getCollection('user')
-    await collection.deleteOne({ _id: ObjectId(userId) })
+    const collection = await dbService.getCollection("user");
+    await collection.deleteOne({ _id: ObjectId(userId) });
   } catch (err) {
-    logger.error(`cannot remove user ${userId}`, err)
-    throw err
+    logger.error(`cannot remove user ${userId}`, err);
+    throw err;
   }
 }
 
@@ -68,13 +68,13 @@ async function update(user) {
     const userToSave = {
       ...user,
       _id: ObjectId(user._id),
-    }
-    const collection = await dbService.getCollection('user')
-    await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
-    return userToSave
+    };
+    const collection = await dbService.getCollection("user");
+    await collection.updateOne({ _id: userToSave._id }, { $set: userToSave });
+    return userToSave;
   } catch (err) {
-    logger.error(`cannot update user ${user._id}`, err)
-    throw err
+    logger.error(`cannot update user ${user._id}`, err);
+    throw err;
   }
 }
 
@@ -96,25 +96,25 @@ async function add(user) {
       phone: null,
       birthDate: null,
       email: null,
-      bg: '',
+      bg: "",
       position: null,
       imgUrl:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVe0cFaZ9e5Hm9X-tdWRLSvoZqg2bjemBABA&usqp=CAU',
-    }
-    const collection = await dbService.getCollection('user')
-    await collection.insertOne(userToAdd)
-    return userToAdd
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVe0cFaZ9e5Hm9X-tdWRLSvoZqg2bjemBABA&usqp=CAU",
+    };
+    const collection = await dbService.getCollection("user");
+    await collection.insertOne(userToAdd);
+    return userToAdd;
   } catch (err) {
-    logger.error('cannot insert user', err)
-    throw err
+    logger.error("cannot insert user", err);
+    throw err;
   }
 }
 
 function _buildCriteria(filterBy) {
-  const criteria = {}
+  const criteria = {};
 
   if (filterBy.txt) {
-    const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
+    const txtCriteria = { $regex: filterBy.txt, $options: "i" };
     criteria.$or = [
       {
         username: txtCriteria,
@@ -122,7 +122,7 @@ function _buildCriteria(filterBy) {
       {
         fullname: txtCriteria,
       },
-    ]
+    ];
   }
 
   // filter by position - if exists
@@ -132,10 +132,10 @@ function _buildCriteria(filterBy) {
   // }
   if (filterBy.position) {
     criteria.$and = [
-      { 'position.lat': { $exists: true } },
-      { 'position.lng': { $exists: true } },
-    ]
+      { "position.lat": { $exists: true } },
+      { "position.lng": { $exists: true } },
+    ];
   }
 
-  return criteria
+  return criteria;
 }
