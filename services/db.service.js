@@ -32,7 +32,7 @@ async function connect() {
     const db = client.db(dbName);
     dbConn = db;
     console.log("Connected to database");
-    await ensureCollectionsExist();
+
     return db;
   } catch (err) {
     logger.error("Cannot Connect to DB", err);
@@ -41,10 +41,16 @@ async function connect() {
 }
 
 const collectionsToEnsure = ["user", "post", "activity", "chat"];
-
+(async () => {
+  await ensureCollectionsExist();
+})();
 async function ensureCollectionsExist(collections = collectionsToEnsure) {
   try {
-    const db = await connect();
+    const client = await MongoClient.connect(config.dbURL, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    const db = client.db(dbName);
 
     const existingCollections = await db.listCollections().toArray();
     const existingCollectionNames = existingCollections.map((col) => col.name);
@@ -62,7 +68,5 @@ async function ensureCollectionsExist(collections = collectionsToEnsure) {
     }
   } catch (err) {
     console.error("Error:", err);
-  } finally {
-    await client.close();
   }
 }
