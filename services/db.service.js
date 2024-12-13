@@ -31,10 +31,38 @@ async function connect() {
     });
     const db = client.db(dbName);
     dbConn = db;
-    console.log("db connected !!!");
+    console.log("Connected to database");
+    await ensureCollectionsExist();
     return db;
   } catch (err) {
     logger.error("Cannot Connect to DB", err);
     throw err;
+  }
+}
+
+const collectionsToEnsure = ["user", "post", "activity", "chat"];
+
+async function ensureCollectionsExist(collections = collectionsToEnsure) {
+  try {
+    const db = await connect();
+
+    const existingCollections = await db.listCollections().toArray();
+    const existingCollectionNames = existingCollections.map((col) => col.name);
+
+    for (const collection of collections) {
+      if (!existingCollectionNames.includes(collection)) {
+        console.log(
+          `Collection "${collection}" does not exist. Creating it...`
+        );
+        await db.createCollection(collection);
+        console.log(`Collection "${collection}" created.`);
+      } else {
+        console.log(`Collection "${collection}" already exists.`);
+      }
+    }
+  } catch (err) {
+    console.error("Error:", err);
+  } finally {
+    await client.close();
   }
 }
