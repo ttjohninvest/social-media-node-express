@@ -77,6 +77,13 @@ async function update(user) {
 
 async function add(user) {
   try {
+    const collection = await dbService.getCollection("user");
+
+    const existingUser = await collection.findOne({ username: user.username });
+    if (existingUser) {
+      throw new Error("Username already exists");
+    }
+
     const userToAdd = {
       username: user.username,
       password: user.password,
@@ -97,7 +104,6 @@ async function add(user) {
       imgUrl:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVe0cFaZ9e5Hm9X-tdWRLSvoZqg2bjemBABA&usqp=CAU",
     };
-    const collection = await dbService.getCollection("user");
     await collection.insertOne(userToAdd);
     return userToAdd;
   } catch (err) {

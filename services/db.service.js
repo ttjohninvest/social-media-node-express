@@ -64,9 +64,9 @@ async function ensureCollectionsExist(collections = collectionsToEnsure) {
           `Collection "${collection}" does not exist. Creating it...`
         );
         await db.createCollection(collection);
-        console.log(`Collection "${collection}" created.`);
+        // console.log(`Collection "${collection}" created.`);
       } else {
-        console.log(`Collection "${collection}" already exists.`);
+        // console.log(`Collection "${collection}" already exists.`);
       }
     }
   } catch (err) {
