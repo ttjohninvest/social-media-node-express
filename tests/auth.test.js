@@ -2,7 +2,7 @@ const request = require("supertest");
 const app = require("../server");
 const { describe, it, expect } = require("@jest/globals");
 
-describe("Auth API", () => {
+describe("Auth API Routes", () => {
   // Signup tests
 
   const randomUsername = "test_user_" + Math.random().toString(36).substring(7);
@@ -97,5 +97,25 @@ describe("Auth API", () => {
 
     expect(res.statusCode).toBe(401);
     expect(res.body).toHaveProperty("err", "Failed to Login");
+  });
+});
+
+describe("User API Routes", () => {
+  describe("GET /api/user", () => {
+    it("should fetch all users", async () => {
+      const res = await request(app).get("/api/user");
+
+      expect(res.statusCode).toBe(200);
+      expect(Array.isArray(res.body)).toBe(true);
+    });
+  });
+
+  describe("GET /api/user/:id", () => {
+    it("should return 500 if user is not found", async () => {
+      const userId = "nonExistingUserId";
+      const res = await request(app).get(`/api/user/${userId}`);
+      expect(res.statusCode).toBe(500);
+      expect(res.body).toHaveProperty("err", "Failed to get user");
+    });
   });
 });
