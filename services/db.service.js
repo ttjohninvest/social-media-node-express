@@ -1,6 +1,7 @@
 const MongoClient = require("mongodb").MongoClient;
 
 const config = require("../config");
+const logger = require("../services/logger.service");
 
 module.exports = {
   getCollection,

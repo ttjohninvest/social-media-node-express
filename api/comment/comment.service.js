@@ -39,13 +39,13 @@ async function update(comment) {
   try {
     const collection = await dbService.getCollection("post");
     await collection.updateOne(
-      { _id: ObjectId(postId), "comments._id": _id },
+      { _id: ObjectId(postId), "comments._id": comment._id },
       { $set: { "comments.$": comment } }
     );
     return comment;
   } catch (err) {
     logger.error(
-      `comment.service - cannot update post with id: ${post._id}`,
+      `comment.service - cannot update post with id: ${postId}`,
       err
     );
     throw err;

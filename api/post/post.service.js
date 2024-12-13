@@ -1,7 +1,6 @@
 const dbService = require("../../services/db.service");
 const logger = require("../../services/logger.service");
 const ObjectId = require("mongodb").ObjectId;
-const utilService = require("../../services/util.service");
 
 module.exports = {
   remove,
@@ -21,7 +20,7 @@ async function query(filterBy) {
     };
 
     if (!Object.keys(filterBy).length) {
-      var posts = await collection.find({}).sort(sort).toArray();
+      const posts = await collection.find({}).sort(sort).toArray();
       return posts;
     } else {
       const criteria = _buildCriteria(filterBy);
@@ -43,7 +42,7 @@ async function query(filterBy) {
         endIndex = 0;
       }
 
-      var posts = await collection
+      const posts = await collection
         .find(criteria)
         .sort(sort)
         .limit(limit)

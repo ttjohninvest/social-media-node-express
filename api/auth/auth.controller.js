@@ -41,6 +41,8 @@ async function logout(req, res) {
     req.session.destroy();
     res.send({ msg: "Logged out successfully" });
   } catch (err) {
+    console.log(err);
+
     res.status(500).send({ err: "Failed to logout" });
   }
 }

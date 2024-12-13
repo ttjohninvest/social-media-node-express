@@ -1,42 +1,44 @@
-import { sign, verify } from 'jsonwebtoken'
+const { sign, verify } = require("jsonwebtoken");
 
 const createTokens = (user) => {
   const accessToken = sign(
     { username: user.userName, id: user._id },
+    // eslint-disable-next-line no-undef
     process.env.TOKEN_SECRET,
-    { expiresIn: '24h' }
-  )
+    { expiresIn: "24h" }
+  );
 
-  return accessToken
-}
+  return accessToken;
+};
 
 const validateToken = (req, res, next) => {
-  let cookies = {}
+  let cookies = {};
 
-  const cookiesArray = req.headers.cookie?.split(';')
+  const cookiesArray = req.headers.cookie?.split(";");
   cookiesArray?.forEach((cookie) => {
-    const [key, value] = cookie.trim().split('=')
-    cookies[key] = value
-  })
+    const [key, value] = cookie.trim().split("=");
+    cookies[key] = value;
+  });
 
   // get The "access-token" value:
-  const accessToken = cookies['access-token']
+  const accessToken = cookies["access-token"];
 
   if (!accessToken)
-    return res.status(400).json({ error: 'User not Authenticated!' })
+    return res.status(400).json({ error: "User not Authenticated!" });
 
   try {
-    const validToken = verify(accessToken, process.env.TOKEN_SECRET)
+    // eslint-disable-next-line no-undef
+    const validToken = verify(accessToken, process.env.TOKEN_SECRET);
     if (validToken) {
-      req.authenticated = true
-      return next()
+      req.authenticated = true;
+      return next();
     }
   } catch (err) {
-    return res.status(400).json({ error: err })
+    return res.status(400).json({ error: err });
   }
-}
+};
 
-export const jwtService = {
+module.exports = {
   createTokens,
   validateToken,
-}
+};

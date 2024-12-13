@@ -4,7 +4,7 @@ let gIo = null;
 
 let connectedUsers = [];
 
-function connectSockets(http, session) {
+function connectSockets(http) {
   gIo = require("socket.io")(http, {
     cors: {
       origin: "*",

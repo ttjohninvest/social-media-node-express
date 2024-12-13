@@ -1,7 +1,6 @@
 const dbService = require("../../services/db.service");
 const logger = require("../../services/logger.service");
 const ObjectId = require("mongodb").ObjectId;
-const utilService = require("../../services/util.service");
 
 module.exports = { query, add, update, getLength };
 
@@ -54,7 +53,7 @@ async function update(activity) {
   }
 }
 
-async function getLength(filterBy) {
+async function getLength() {
   try {
     const criteria = {};
 
