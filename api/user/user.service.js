@@ -125,11 +125,6 @@ function _buildCriteria(filterBy) {
     ];
   }
 
-  // filter by position - if exists
-
-  // if (filterBy.position) {
-  //   criteria.position = { $exists: true }
-  // }
   if (filterBy.position) {
     criteria.$and = [
       { "position.lat": { $exists: true } },
