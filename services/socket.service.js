@@ -15,8 +15,8 @@ function connectSockets(http, session) {
 
     socket.emit("add-connected-users", connectedUsers);
 
-    socket.on("disconnect", (socket) => {
-      console.log("Someone disconnected");
+    socket.on("disconnect", () => {
+      console.log("Socket disconnected: ", socket.id);
       connectedUsers = connectedUsers.filter((u) => u.userId !== socket.userId);
     });
 
