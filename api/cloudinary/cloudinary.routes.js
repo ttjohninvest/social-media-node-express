@@ -10,26 +10,14 @@ cloudinary.config({
 
 const router = express.Router();
 
-router.post("/signature", (req, res) => {
-  try {
-    const timestamp = Math.floor(new Date().getTime() / 1000);
-    const uploadPreset = "social_n_shlomi";
-
-    const signature = cloudinary.utils.api_sign_request(
-      { timestamp, upload_preset: uploadPreset },
-      process.env.CLOUD_API_SECRET
-    );
-
-    res.json({ signature, timestamp, uploadPreset });
-  } catch (err) {
-    console.error("Error generating signature:", err.message);
-    res.status(500).send("Failed to generate signature");
-  }
-});
-
 router.post("/upload", async (req, res) => {
   try {
     const { file, resourceType } = req.body;
+
+    if (!file) {
+      return res.status(400).send("No file provided");
+    }
+
     const uploadPreset = "social_n_shlomi";
 
     const result = await cloudinary.uploader.upload(file, {

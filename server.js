@@ -3,6 +3,7 @@ const cors = require("cors");
 const path = require("path");
 const expressSession = require("express-session");
 const logger = require("./services/logger.service");
+const bodyParser = require("body-parser");
 
 const cloudinary = require("cloudinary").v2;
 
@@ -27,6 +28,7 @@ const session = expressSession({
   cookie: { secure: false },
 });
 
+app.use(bodyParser.json());
 app.use(session);
 app.use(express.json());
 app.use(express.static("public"));
