@@ -23,6 +23,7 @@ This project is a social media backend built using Node.js and Express. It inclu
 - **Posts & Comments**: Users can create, read, update, and delete posts and comments.
 - **Middleware**: Custom middleware for authentication, error handling, and request logging.
 - **Logging**: Logs are maintained for server activities.
+- **Content Moderation**: Integrated Google Vision API and Cloudinary WebPurify for detecting and preventing uploads of inappropriate content.
 - **API Documentation**: Well-documented API endpoints for easy integration.
 
 ---
@@ -72,6 +73,11 @@ This project is a social media backend built using Node.js and Express. It inclu
   CLOUD_NAME=your_cloud_name
   CLOUD_API_KEY=your_api_key
   CLOUD_API_SECRET=your_api_secret
+  
+  GOOGLE_PRIVATE_KEY=
+  GOOGLE_CLIENT_EMAIL=
+  GOOGLE_PROJECT_ID=
+
   ```
 
 ---
