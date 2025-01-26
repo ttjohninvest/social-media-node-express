@@ -69,6 +69,9 @@ This project is a social media backend built using Node.js and Express. It inclu
   DB_URI=your_mongodb_uri_here
   REACT_APP_GOOGLE_MAP_KEY=
   TOKEN_SECRET=your_jwt_secret
+  CLOUD_NAME=your_cloud_name
+  CLOUD_API_KEY=your_api_key
+  CLOUD_API_SECRET=your_api_secret
   ```
 
 ---
