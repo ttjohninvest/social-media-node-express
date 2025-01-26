@@ -5,17 +5,6 @@ const expressSession = require("express-session");
 const logger = require("./services/logger.service");
 const bodyParser = require("body-parser");
 
-const cloudinary = require("cloudinary").v2;
-
-cloudinary.config({
-  // eslint-disable-next-line no-undef
-  cloud_name: process.env.CLOUD_NAME, // הכנס את שם הענן שלך
-  // eslint-disable-next-line no-undef
-  api_key: process.env.CLOUD_API_KEY, // הכנס את מפתח ה-API שלך
-  // eslint-disable-next-line no-undef
-  api_secret: process.env.CLOUD_API_SECRET, // הכנס את המפתח הסודי שלך
-});
-
 const app = express();
 const http = require("http").createServer(app);
 
@@ -47,6 +36,9 @@ if (process.env.NODE_ENV === "production") {
   };
   app.use(cors(corsOptions));
 }
+
+app.use(bodyParser.json({ limit: "50mb" }));
+app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 
 const authRoutes = require("./api/auth/auth.routes");
 const userRoutes = require("./api/user/user.routes");
