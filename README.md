@@ -150,7 +150,7 @@ npm start
 
 ## Frontend
 
-The frontend for this project can be found at [Chess v2 React Frontend](https://github.com/shlomiNugarker/chess-v2-react).
+The frontend for this project can be found at [here](https://github.com/shlomiNugarker/social-media-react?tab=readme-ov-file).
 
 ---
 
