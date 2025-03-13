@@ -30,7 +30,7 @@ if (process.env.NODE_ENV === "production") {
     origin: [
       "http://127.0.0.1:3000",
       "http://localhost:3000",
-      "http://localhost:3003",
+      "http://localhost:3001",
       "http://localhost:19006",
     ],
     credentials: true,
